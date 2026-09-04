@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "قرمه سبزی",
+    "rate": 4.8,
+    "time": 90,
+    "calories": 0,
+
+    "category": {
+      "id": 1,
+      "name": "غذاهای ایرانی"
+    },
+
+    "image_id": 1,
+
+    "ingredients": [
+      {
+        "id": 1,
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "id": 2,
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+
+    "steps": [
+      {
+        "step": 1,
+        "time": 20,
+        "description": "پیاز را خرد کرده و تفت دهید.",
+        "images": [
+          {
+            "media_id": 1
+          },
+          {
+            "media_id": 1
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "time": 40,
+        "description": "سبزی را اضافه کنید.",
+        "images": [
+          {
+            "media_id": 1
+          }
+        ]
+      }
+    ],
+
+    "tags": [
+      {
+        "id": 1,
+        "name": "ایرانی"
+      }
+    ]
+  }
+]
