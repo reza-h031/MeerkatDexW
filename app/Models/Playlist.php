@@ -6,10 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Playlist extends Model
 {
-    protected $fillable=[
-        'name'
+    protected $fillable = [
+        'name',
+        'description',
+        'number',
     ];
-
 
     public function games()
     {

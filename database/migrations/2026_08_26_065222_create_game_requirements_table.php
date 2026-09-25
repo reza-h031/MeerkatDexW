@@ -11,16 +11,15 @@ return new class extends Migration
         Schema::create('game_requirements', function (Blueprint $table) {
             $table->id();
 
-            $table->foreignId('game_id')
-                ->constrained('games')
-                ->cascadeOnDelete();
+            $table->foreignId('minimum_requirement_id')
+                ->nullable()
+                ->constrained('requirements')
+                ->nullOnDelete();
 
-            $table->foreignId('platform_id')
-                ->constrained('platforms')
-                ->cascadeOnDelete();
-
-            $table->text('minimum_requirements')->nullable();
-            $table->text('recommended_requirements')->nullable();
+            $table->foreignId('recommended_requirement_id')
+                ->nullable()
+                ->constrained('requirements')
+                ->nullOnDelete();
         });
     }
 

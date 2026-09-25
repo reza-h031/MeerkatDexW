@@ -8,12 +8,17 @@ class Platform extends Model
 {
     protected $fillable = [
         'name',
-        'logo'
+        'logo',
     ];
-
 
     public function games()
     {
-        return $this->belongsToMany(Game::class);
+        return $this->belongsToMany(Game::class)
+            ->withPivot([
+                'version',
+                'release_date',
+                'download_size',
+                'game_requirement_id',
+            ]);
     }
 }

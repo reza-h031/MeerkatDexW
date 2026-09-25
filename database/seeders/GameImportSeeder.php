@@ -12,24 +12,35 @@ use App\Models\GameRequirement;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 
-class GameSeeder extends Seeder
+class GameImportSeeder extends Seeder
 {
     public function run(): void
     {
+        $path = database_path('data/newGame.json');
+
+        if (!File::exists($path)) {
+            $this->command->error('newGame.json not found.');
+
+            return;
+        }
+
         $games = json_decode(
-            File::get(database_path('data/games.json')),
+            File::get($path),
             true
         );
+
+        if (!is_array($games)) {
+            $this->command->error('Invalid JSON format.');
+
+            return;
+        }
 
         foreach ($games as $gameData) {
 
             /*
-            |--------------------------------------------------------------------------
-            | Developer
-            |--------------------------------------------------------------------------
-            */
-
-            $developer = Developer::firstOrCreate(
+             * Developer
+             */
+            $developer = Developer::updateOrCreate(
                 [
                     'name' => $gameData['developer']['name'],
                 ],
@@ -39,14 +50,10 @@ class GameSeeder extends Seeder
                 ]
             );
 
-
             /*
-            |--------------------------------------------------------------------------
-            | Publisher
-            |--------------------------------------------------------------------------
-            */
-
-            $publisher = Publisher::firstOrCreate(
+             * Publisher
+             */
+            $publisher = Publisher::updateOrCreate(
                 [
                     'name' => $gameData['publisher']['name'],
                 ],
@@ -56,13 +63,9 @@ class GameSeeder extends Seeder
                 ]
             );
 
-
             /*
-            |--------------------------------------------------------------------------
-            | Game
-            |--------------------------------------------------------------------------
-            */
-
+             * Game
+             */
             $game = Game::create([
                 'title' => $gameData['title'],
                 'description' => $gameData['description'],
@@ -73,13 +76,9 @@ class GameSeeder extends Seeder
                 'status' => $gameData['status'] ?? null,
             ]);
 
-
             /*
-            |--------------------------------------------------------------------------
-            | Genres
-            |--------------------------------------------------------------------------
-            */
-
+             * Genres
+             */
             foreach ($gameData['genres'] ?? [] as $genreName) {
 
                 $genre = Genre::firstOrCreate([
@@ -89,60 +88,34 @@ class GameSeeder extends Seeder
                 $game->genres()->attach($genre->id);
             }
 
-
             /*
-            |--------------------------------------------------------------------------
-            | Platforms
-            |--------------------------------------------------------------------------
-            */
-
+             * Platforms
+             */
             foreach ($gameData['platforms'] ?? [] as $platformData) {
 
-                $platform = Platform::firstOrCreate([
-                    'name' => $platformData['name'],
-			
-					'logo' => $platformData['logo'] ?? null,
-						
-                ]);
-
-
-                /*
-                |--------------------------------------------------------------------------
-                | Requirement
-                |--------------------------------------------------------------------------
-                */
+                $platform = Platform::updateOrCreate(
+                    [
+                        'name' => $platformData['name'],
+                    ],
+                    [
+                        'logo' => $platformData['logo'] ?? null,
+                    ]
+                );
 
                 $gameRequirement = null;
 
+                /*
+                 * Requirements
+                 */
                 if (isset($platformData['requirement'])) {
-
-                    /*
-                    |--------------------------------------------------------------------------
-                    | Minimum Requirement
-                    |--------------------------------------------------------------------------
-                    */
 
                     $minimum = Requirement::create(
                         $platformData['requirement']['minimum']
                     );
 
-
-                    /*
-                    |--------------------------------------------------------------------------
-                    | Recommended Requirement
-                    |--------------------------------------------------------------------------
-                    */
-
                     $recommended = Requirement::create(
                         $platformData['requirement']['recommended']
                     );
-
-
-                    /*
-                    |--------------------------------------------------------------------------
-                    | Game Requirement
-                    |--------------------------------------------------------------------------
-                    */
 
                     $gameRequirement = GameRequirement::create([
                         'minimum_requirement_id' => $minimum->id,
@@ -150,13 +123,9 @@ class GameSeeder extends Seeder
                     ]);
                 }
 
-
                 /*
-                |--------------------------------------------------------------------------
-                | Game ↔ Platform
-                |--------------------------------------------------------------------------
-                */
-
+                 * Game Platform
+                 */
                 $game->platforms()->attach(
                     $platform->id,
                     [
@@ -168,20 +137,9 @@ class GameSeeder extends Seeder
                 );
             }
 
-
             /*
-            |--------------------------------------------------------------------------
-            | Images
-            |--------------------------------------------------------------------------
-            |
-            | ترتیب تصاویر در JSON:
-            |
-            | 0 = icon
-            | 1 = cover
-            | 2+ = screenshot
-            |
-            */
-
+             * Images
+             */
             foreach ($gameData['images'] ?? [] as $index => $path) {
 
                 $type = match ($index) {
@@ -196,13 +154,9 @@ class GameSeeder extends Seeder
                 ]);
             }
 
-
             /*
-            |--------------------------------------------------------------------------
-            | Ratings
-            |--------------------------------------------------------------------------
-            */
-
+             * Ratings
+             */
             foreach ($gameData['ratings'] ?? [] as $rating) {
 
                 $game->ratings()->create([
@@ -212,6 +166,10 @@ class GameSeeder extends Seeder
                     'rating_count' => $rating['rating_count'],
                 ]);
             }
+
+            $this->command->info(
+                "Game '{$game->title}' added successfully."
+            );
         }
     }
 }

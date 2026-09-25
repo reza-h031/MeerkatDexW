@@ -11,9 +11,12 @@ class GameResource extends JsonResource
     {
         return [
             'id' => $this->id,
+
             'title' => $this->title,
+
             'description' => $this->description,
-            'release_date' => $this->release_date,
+
+            'releaseDate' => $this->release_date,
 
             'developer' => [
                 'id' => $this->developer?->id,
@@ -30,14 +33,15 @@ class GameResource extends JsonResource
             ],
 
             'website' => $this->website,
+
             'status' => $this->status,
 
-'platforms' => $this->platforms->map(function ($platform) {
+'platform' => $this->platforms->map(function ($platform) {
 
-    $requirement = null;
+    $gameRequirement = null;
 
     if ($platform->pivot->game_requirement_id) {
-        $requirement = \App\Models\GameRequirement::with([
+        $gameRequirement = \App\Models\GameRequirement::with([
             'minimumRequirement',
             'recommendedRequirement',
         ])->find($platform->pivot->game_requirement_id);
@@ -49,44 +53,45 @@ class GameResource extends JsonResource
         'logo' => $platform->logo,
 
         'version' => $platform->pivot->version,
-        'release_date' => $platform->pivot->release_date,
-        'download_size' => $platform->pivot->download_size,
 
-        'requirement' => $requirement ? [
-            'id' => $requirement->id,
+        'releaseDate' => $platform->pivot->release_date,
 
-            'minimum' => $requirement->minimumRequirement,
+        'downloadSize' => $platform->pivot->download_size,
 
-            'recommended' => $requirement->recommendedRequirement,
+        'gameRequirement' => $gameRequirement ? [
+            'id' => $gameRequirement->id,
+
+            'minimumRequirements' => $gameRequirement->minimumRequirement,
+
+            'recommendedRequirements' => $gameRequirement->recommendedRequirement,
         ] : null,
     ];
 }),
 
-'genres' => $this->genres->map(function ($genre) {
-    return [
-        'id' => $genre->id,
-        'name' => $genre->name,
-    ];
-}),
+            'genre' => $this->genres->map(function ($genre) {
+                return [
+                    'id' => $genre->id,
+                    'name' => $genre->name,
+                ];
+            }),
 
-'images' => $this->images->map(function ($image) {
-    return [
-        'id' => $image->id,
-        'path' => $image->path,
-        'type' => $image->type,
-    ];
-}),
+            'images' => $this->images->map(function ($image) {
+                return [
+                    'id' => $image->id,
+                    'path' => $image->path,
+                    'type' => $image->type,
+                ];
+            }),
 
-
-'ratings' => $this->ratings->map(function ($rating) {
-    return [
-        'id' => $rating->id,
-        'source' => $rating->source,
-        'logo_source' => $rating->logo_source,
-        'rating' => $rating->rating,
-        'rating_count' => $rating->rating_count,
-    ];
-}),
+            'ratings' => $this->ratings->map(function ($rating) {
+                return [
+                    'id' => $rating->id,
+                    'source' => $rating->source,
+                    'logoSource' => $rating->logo_source,
+                    'rating' => (string) $rating->rating,
+                    'ratingCount' => (string) $rating->rating_count,
+                ];
+            }),
         ];
     }
 }

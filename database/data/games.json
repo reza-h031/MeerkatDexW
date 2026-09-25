@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Brawl Stars",
+        "description": "A multiplayer action game with fast-paced battles and different game modes.",
+        "release_date": "2018-12-12",
+
+        "developer": {
+            "name": "Supercell",
+            "logo": null,
+            "website": "https://supercell.com"
+        },
+
+        "publisher": {
+            "name": "Supercell",
+            "logo": null,
+            "website": "https://supercell.com"
+        },
+
+        "website": "https://supercell.com/en/games/brawlstars/",
+        "status": "released",
+
+
+        "genres": [
+            "Action"
+        ],
+
+
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "61.249",
+       	 	"logo": "media/platforms/android.png",
+                "release_date": "2026-08-20",
+                "download_size": "250 MB",
+
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 7.0",
+                        "cpu": "Snapdragon 450",
+                        "gpu": "Adreno 506",
+                        "storage": "1 GB"
+                    },
+
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+
+
+        "images": [
+            "media/games/brawl-stars/icon.png",
+            "media/games/brawl-stars/cover.png",
+            "media/games/brawl-stars/screenshot-1.png"
+        ],
+
+
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "ratings/google-play.png",
+                "rating": 4.5,
+                "rating_count": 12500000
+            }
+        ]
+    }
+]

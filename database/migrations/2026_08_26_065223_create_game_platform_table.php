@@ -17,7 +17,21 @@ return new class extends Migration
                 ->constrained('platforms')
                 ->cascadeOnDelete();
 
-            $table->primary(['game_id', 'platform_id']);
+            $table->string('version')->nullable();
+
+            $table->date('release_date')->nullable();
+
+            $table->string('download_size')->nullable();
+
+            $table->foreignId('game_requirement_id')
+                ->nullable()
+                ->constrained('game_requirements')
+                ->nullOnDelete();
+
+            $table->primary([
+                'game_id',
+                'platform_id'
+            ]);
         });
     }
 
