@@ -8,6 +8,7 @@ use App\Http\Controllers\Api\GenreController;
 use App\Http\Controllers\Api\PlaylistController;
 
 Route::get('/games', [GameController::class, 'index']);
+Route::post('/games/filter', [GameController::class, 'filter']);
 Route::get('/games/{game}', [GameController::class, 'show']);
 
 Route::get('/developers', [DeveloperController::class, 'index']);
