@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Featured Games",
+        "description": "A selection of featured and notable games.",
+        "games": [
+            "Brawl Stars",
+            "Minecraft"
+        ]
+    },
+    {
+        "name": "Popular Games",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars"
+        ]
+    }
+]

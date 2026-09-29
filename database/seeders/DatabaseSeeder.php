@@ -17,11 +17,12 @@ class DatabaseSeeder extends Seeder
         $this->call(MediaSeeder::class);
         $this->call(MediaVariantsSeeder::class);
         $this->call([
-            DeveloperSeeder::class,
-            PublisherSeeder::class,
-            PlatformSeeder::class,
-            GenreSeeder::class,
-            GameSeeder::class,
+    DeveloperSeeder::class,
+    PublisherSeeder::class,
+    PlatformSeeder::class,
+    GenreSeeder::class,
+    GameSeeder::class,
+    PlaylistSeeder::class,
         ]);
 
     }

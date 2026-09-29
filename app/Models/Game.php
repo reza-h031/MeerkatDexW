@@ -59,8 +59,11 @@ public function platforms()
     }
 
 
-    public function playlists()
-    {
-        return $this->belongsToMany(Playlist::class);
-    }
+public function playlists()
+{
+    return $this->belongsToMany(
+        Playlist::class,
+        'playlist_game'
+    );
+}
 }

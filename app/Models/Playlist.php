@@ -9,11 +9,13 @@ class Playlist extends Model
     protected $fillable = [
         'name',
         'description',
-        'number',
     ];
 
-    public function games()
-    {
-        return $this->belongsToMany(Game::class);
-    }
+public function games()
+{
+    return $this->belongsToMany(
+        Game::class,
+        'playlist_game'
+    );
+}
 }
