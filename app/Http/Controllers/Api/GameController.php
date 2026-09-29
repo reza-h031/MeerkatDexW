@@ -65,13 +65,13 @@ class GameController extends Controller
         ->get();
 
 
-        $simpleGames = $games->map(function ($game) {
+		$simpleGames = $games->map(function ($game) {
 
-$cover = $game->images
-    ->firstWhere('type', 'cover');
+			$cover = $game->images
+				->firstWhere('type', 'cover');
 
-$icon = $game->images
-    ->firstWhere('type', 'icon');
+			$icon = $game->images
+				->firstWhere('type', 'icon');
 
 
             $ratings = $game->ratings->map(function ($rating) {

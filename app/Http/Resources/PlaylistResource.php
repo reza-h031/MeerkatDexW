@@ -15,7 +15,7 @@ class PlaylistResource extends JsonResource
             'description' => $this->description,
             'number' => $this->games->count(),
 
-            'games' => SimpleGameResource::collection(
+            'games' => PlaylistGameResource::collection(
                 $this->whenLoaded('games')
             ),
         ];
