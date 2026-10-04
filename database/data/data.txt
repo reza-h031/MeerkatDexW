@@ -1,0 +1,239 @@
+[
+  {
+    "title": "Brawl Stars",
+    "description": "Fast-paced multiplayer game.",
+    "release_date": "2018-12-12",
+    "developer": {
+      "name": "Supercell",
+      "logo": "media/developers/supercell.png",
+      "website": "https://supercell.com"
+    },
+    "publisher": {
+      "name": "Supercell",
+      "logo": "media/publishers/supercell.png",
+      "website": "https://supercell.com"
+    },
+    "website": "https://supercell.com/en/games/brawlstars/",
+    "status": "released",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "platforms": [
+      {
+        "name": "Android",
+        "logo": "media/platforms/android.png",
+        "version": "69.252",
+        "release_date": "2026-09-04",
+        "download_size": "Varies by device",
+        "requirement": {
+          "minimum": {
+            "ram": "2 GB",
+            "system_version": "Android 7.0",
+            "cpu": "Snapdragon 450",
+            "gpu": "Adreno 506",
+            "storage": "1 GB"
+          },
+          "recommended": {
+            "ram": "4 GB",
+            "system_version": "Android 10",
+            "cpu": "Snapdragon 660",
+            "gpu": "Adreno 512",
+            "storage": "2 GB"
+          }
+        }
+      }
+    ],
+    "images": [
+      "media/games/brawl-stars/icon.png",
+      "media/games/brawl-stars/cover.png",
+      "media/games/brawl-stars/screenshot-1.png"
+    ],
+    "ratings": [
+      {
+        "source": "Google Play",
+        "logo_source": "media/ratings/google-play.png",
+        "rating": "4.2",
+        "rating_count": "26100000"
+      }
+    ]
+  },
+  {
+    "title": "Minecraft",
+    "description": "A sandbox game focused on creativity and exploration.",
+    "release_date": "2011-08-16",
+    "developer": {
+      "name": "Mojang Studios",
+      "logo": "media/developers/mojang.png",
+      "website": "https://www.minecraft.net"
+    },
+    "publisher": {
+      "name": "Microsoft",
+      "logo": "media/publishers/microsoft.png",
+      "website": "https://www.microsoft.com"
+    },
+    "website": "https://www.minecraft.net",
+    "status": "released",
+    "genres": [
+      "Adventure",
+      "Simulation",
+      "Sandbox"
+    ],
+    "platforms": [
+      {
+        "name": "Android",
+        "logo": "media/platforms/android.png",
+        "version": "26.51",
+        "release_date": "2026-09-16",
+        "download_size": "Varies by device",
+        "requirement": {
+          "minimum": {
+            "ram": "2 GB",
+            "system_version": "Android 9",
+            "cpu": "ARM 64-bit",
+            "gpu": "OpenGL ES 3.1",
+            "storage": "1 GB"
+          },
+          "recommended": {
+            "ram": "4 GB",
+            "system_version": "Android 11",
+            "cpu": "Snapdragon 660",
+            "gpu": "Adreno 512",
+            "storage": "4 GB"
+          }
+        }
+      }
+    ],
+    "images": [
+      "media/games/minecraft/icon.png",
+      "media/games/minecraft/cover.png",
+      "media/games/minecraft/screenshot-1.png"
+    ],
+    "ratings": [
+      {
+        "source": "Google Play",
+        "logo_source": "media/ratings/google-play.png",
+        "rating": "4.3",
+        "rating_count": "5830000"
+      }
+    ]
+  }
+]
+[
+    {
+        "title": "Genshin Impact",
+        "description": "An open-world action RPG with exploration, elemental combat, and a large fantasy world.",
+        "release_date": "2020-09-28",
+
+        "developer": {
+            "name": "miHoYo",
+            "logo": null,
+            "website": "https://www.hoyoverse.com/"
+        },
+
+        "publisher": {
+            "name": "HoYoverse",
+            "logo": null,
+            "website": "https://www.hoyoverse.com/"
+        },
+
+        "website": "https://genshin.hoyoverse.com/",
+        "status": "released",
+
+        "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "6.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2020-09-28",
+                "download_size": "30 GB",
+
+                "requirement": {
+                    "minimum": {
+                        "ram": "4 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 610",
+                        "storage": "30 GB"
+                    },
+                    "recommended": {
+                        "ram": "6 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 855",
+                        "gpu": "Adreno 640",
+                        "storage": "40 GB"
+                    }
+                }
+            },
+            {
+                "name": "iOS",
+                "version": "6.0",
+                "logo": "media/platforms/ios.png",
+                "release_date": "2020-09-28",
+                "download_size": "30 GB",
+
+                "requirement": {
+                    "minimum": {
+                        "ram": "4 GB",
+                        "system_version": "iOS 11",
+                        "cpu": "A11 Bionic",
+                        "gpu": "Apple GPU",
+                        "storage": "30 GB"
+                    },
+                    "recommended": {
+                        "ram": "6 GB",
+                        "system_version": "iOS 14",
+                        "cpu": "A13 Bionic",
+                        "gpu": "Apple GPU",
+                        "storage": "40 GB"
+                    }
+                }
+            },
+            {
+                "name": "Windows",
+                "version": "6.0",
+                "logo": "media/platforms/windows.png",
+                "release_date": "2020-09-28",
+                "download_size": "110 GB",
+
+                "requirement": {
+                    "minimum": {
+                        "ram": "8 GB",
+                        "system_version": "Windows 10",
+                        "cpu": "Intel Core i5",
+                        "gpu": "NVIDIA GeForce GT 1030",
+                        "storage": "110 GB"
+                    },
+                    "recommended": {
+                        "ram": "16 GB",
+                        "system_version": "Windows 10",
+                        "cpu": "Intel Core i7",
+                        "gpu": "NVIDIA GeForce GTX 1060",
+                        "storage": "110 GB"
+                    }
+                }
+            }
+        ],
+
+        "images": [
+            "media/games/genshin-impact/icon.png",
+            "media/games/genshin-impact/cover.png",
+            "media/games/genshin-impact/screenshot-1.png"
+        ],
+
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "ratings/google-play.png",
+                "rating": 4.2,
+                "rating_count": 5000000
+            }
+        ]
+    }
+]

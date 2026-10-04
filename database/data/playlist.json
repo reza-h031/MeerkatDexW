@@ -4,14 +4,96 @@
         "description": "A selection of featured and notable games.",
         "games": [
             "Brawl Stars",
-            "Minecraft"
+            "Minecraft",
+"Genshin Impact"
         ]
     },
     {
-        "name": "Popular Games",
+        "name": "Popular Gamesfff",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars",
+	    "Minecraft",
+"Genshin Impact"
+        ]
+    },
+    {
+        "name": "Popular Games2",
         "description": "Popular games that are worth playing.",
         "games": [
             "Brawl Stars"
+        ]
+    },
+    {
+        "name": "Popular Games3",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars"
+        ]
+    },
+    {
+        "name": "Popular Games4",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars"
+        ]
+    },
+    {
+        "name": "Popular Games5",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars"
+        ]
+    },
+    {
+        "name": "Popular Games6",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars"
+        ]
+    },
+    {
+        "name": "Popular Games7",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars"
+        ]
+    },
+    {
+        "name": "Popular Games8",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars"
+        ]
+    },
+    {
+        "name": "Popular Games9",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars",
+"Genshin Impact"
+        ]
+    },
+    {
+        "name": "Popular Games10",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars"
+        ]
+    },
+    {
+        "name": "Popular Games11",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars"
+        ]
+    },
+    {
+        "name": "Popular Games12",
+        "description": "Popular games that are worth playing.",
+        "games": [
+            "Brawl Stars",
+"Genshin Impact"
         ]
     }
 ]
