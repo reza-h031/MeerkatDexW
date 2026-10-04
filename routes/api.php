@@ -7,6 +7,7 @@ use App\Http\Controllers\Api\PlatformController;
 use App\Http\Controllers\Api\GenreController;
 use App\Http\Controllers\Api\PlaylistController;
 
+Route::middleware('throttle:api')->group(function () {
 Route::get('/games', [GameController::class, 'index']);
 Route::post('/games/filter', [GameController::class, 'filter']);
 Route::get('/games/{game}', [GameController::class, 'show']);
@@ -25,3 +26,4 @@ Route::get('/genres/{genre}', [GenreController::class, 'show']);
 
 Route::get('/playlists', [PlaylistController::class, 'index']);
 Route::get('/playlists/{playlist}', [PlaylistController::class, 'show']);
+});
