@@ -1,62 +1,601 @@
 [
- {
-    "title": "Minecraft",
-    "description": "A sandbox game focused on creativity and exploration.",
-    "release_date": "2011-08-16",
-    "developer": {
-      "name": "Mojang Studios",
-      "logo": "media/developers/mojang.png",
-      "website": "https://www.minecraft.net"
+    {
+        "title": "Genshin Impact",
+        "description": "An open-world action RPG featuring elemental magic, character switching, and expansive world exploration.",
+        "release_date": "2020-09-28",
+        "developer": {
+            "name": "miHoYo",
+            "logo": "media/developers/mihoyo.png",
+            "website": "https://www.mihoyo.com"
+        },
+        "publisher": {
+            "name": "Cognosphere",
+            "logo": "media/publishers/cognosphere.png",
+            "website": "https://hoyoverse.com"
+        },
+        "website": "https://genshin.hoyoverse.com",
+        "status": "released",
+        "genres": [
+            "Action",
+            "RPG",
+            "Open World"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "5.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2020-09-28",
+                "download_size": "25 GB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "4 GB",
+                        "system_version": "Android 8.1",
+                        "cpu": "Snapdragon 845",
+                        "gpu": "Adreno 630",
+                        "storage": "30 GB"
+                    },
+                    "recommended": {
+                        "ram": "6 GB",
+                        "system_version": "Android 11",
+                        "cpu": "Snapdragon 888",
+                        "gpu": "Adreno 660",
+                        "storage": "30 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/genshin-impact/icon.png",
+            "media/games/genshin-impact/cover.png",
+            "media/games/genshin-impact/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.2,
+                "rating_count": 4500000
+            }
+        ]
     },
-    "publisher": {
-      "name": "Microsoft",
-      "logo": "media/publishers/microsoft.png",
-      "website": "https://www.microsoft.com"
+    {
+        "title": "PUBG Mobile",
+        "description": "A intense battle royale game where 100 players fight for survival on a shrinking island.",
+        "release_date": "2018-03-19",
+        "developer": {
+            "name": "Lightspeed & Quantum Studio",
+            "logo": "media/developers/lightspeed.png",
+            "website": "https://www.pubgmobile.com"
+        },
+        "publisher": {
+            "name": "Tencent Games",
+            "logo": "media/publishers/tencent.png",
+            "website": "https://www.tencent.com"
+        },
+        "website": "https://www.pubgmobile.com",
+        "status": "released",
+        "genres": [
+            "Battle Royale",
+            "Action",
+            "Shooter"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "3.3",
+                "logo": "media/platforms/android.png",
+                "release_date": "2018-03-19",
+                "download_size": "1.2 GB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 5.1.1",
+                        "cpu": "Snapdragon 435",
+                        "gpu": "Adreno 505",
+                        "storage": "4 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 720G",
+                        "gpu": "Adreno 618",
+                        "storage": "8 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/pubg-mobile/icon.png",
+            "media/games/pubg-mobile/cover.png",
+            "media/games/pubg-mobile/screenshot-1.png",
+            "media/games/pubg-mobile/screenshot-2.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.3,
+                "rating_count": 43000000
+            }
+        ]
     },
-    "website": "https://www.minecraft.net",
-    "status": "released",
-    "genres": [
-      "Adventure",
-      "Simulation",
-      "Sandbox"
-    ],
-    "platforms": [
-      {
-        "name": "Android",
-        "logo": "media/platforms/android.png",
-        "version": "26.51",
-        "release_date": "2026-09-16",
-        "download_size": "Varies by device",
-        "requirement": {
-          "minimum": {
-            "ram": "2 GB",
-            "system_version": "Android 9",
-            "cpu": "ARM 64-bit",
-            "gpu": "OpenGL ES 3.1",
-            "storage": "1 GB"
-          },
-          "recommended": {
-            "ram": "4 GB",
-            "system_version": "Android 11",
-            "cpu": "Snapdragon 660",
-            "gpu": "Adreno 512",
-            "storage": "4 GB"
-          }
-        }
-      }
-    ],
-    "images": [
-      "media/games/minecraft/icon.png",
-      "media/games/minecraft/cover.png",
-      "media/games/minecraft/screenshot-1.png"
-    ],
-    "ratings": [
-      {
-        "source": "Google Play",
-        "logo_source": "media/ratings/google-play.png",
-        "rating": "4.3",
-        "rating_count": "5830000"
-      }
-    ]
-  }
+    {
+        "title": "Call of Duty: Mobile",
+        "description": "A fast-paced first-person shooter featuring classic multiplayer maps, modes, and battle royale.",
+        "release_date": "2019-10-01",
+        "developer": {
+            "name": "TiMi Studio Group",
+            "logo": "media/developers/timi.png",
+            "website": "https://www.timistudios.com"
+        },
+        "publisher": {
+            "name": "Activision",
+            "logo": "media/publishers/activision.png",
+            "website": "https://www.activision.com"
+        },
+        "website": "https://www.callofduty.com/mobile",
+        "status": "released",
+        "genres": [
+            "FPS",
+            "Action",
+            "Shooter"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "1.0.45",
+                "logo": "media/platforms/android.png",
+                "release_date": "2019-10-01",
+                "download_size": "2.5 GB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 5.1",
+                        "cpu": "Snapdragon 625",
+                        "gpu": "Adreno 506",
+                        "storage": "5 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 845",
+                        "gpu": "Adreno 630",
+                        "storage": "12 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/cod-mobile/icon.png",
+            "media/games/cod-mobile/cover.png",
+            "media/games/cod-mobile/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.4,
+                "rating_count": 16000000
+            }
+        ]
+    },
+    {
+        "title": "Asphalt 9: Legends",
+        "description": "An arcade racing game featuring hypercars, custom customization, and spectacular action-packed tracks.",
+        "release_date": "2018-07-25",
+        "developer": {
+            "name": "Gameloft Barcelona",
+            "logo": "media/developers/gameloft.png",
+            "website": "https://www.gameloft.com"
+        },
+        "publisher": {
+            "name": "Gameloft",
+            "logo": "media/publishers/gameloft.png",
+            "website": "https://www.gameloft.com"
+        },
+        "website": "https://asphaltlegends.com",
+        "status": "released",
+        "genres": [
+            "Racing",
+            "Arcade"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "5.1.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2018-07-25",
+                "download_size": "2.8 GB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "3 GB",
+                        "system_version": "Android 7.0",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "3.5 GB"
+                    },
+                    "recommended": {
+                        "ram": "6 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 855",
+                        "gpu": "Adreno 640",
+                        "storage": "5 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/asphalt-9/icon.png",
+            "media/games/asphalt-9/cover.png",
+            "media/games/asphalt-9/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.5,
+                "rating_count": 2700000
+            }
+        ]
+    },
+    {
+        "title": "Clash Royale",
+        "description": "A real-time strategy game combining card collection, tower defense, and multiplayer arena battles.",
+        "release_date": "2016-03-02",
+        "developer": {
+            "name": "Supercell",
+            "logo": "media/developers/supercell.png",
+            "website": "https://supercell.com"
+        },
+        "publisher": {
+            "name": "Supercell",
+            "logo": "media/publishers/supercell.png",
+            "website": "https://supercell.com"
+        },
+        "website": "https://supercell.com/en/games/clashroyale/",
+        "status": "released",
+        "genres": [
+            "Strategy",
+            "Card Game",
+            "Tower Defense"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "7.2.1",
+                "logo": "media/platforms/android.png",
+                "release_date": "2016-03-02",
+                "download_size": "300 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1.5 GB",
+                        "system_version": "Android 6.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Mali-T720",
+                        "storage": "1 GB"
+                    },
+                    "recommended": {
+                        "ram": "3 GB",
+                        "system_version": "Android 9.0",
+                        "cpu": "Snapdragon 636",
+                        "gpu": "Adreno 509",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/clash-royale/icon.png",
+            "media/games/clash-royale/cover.png",
+            "media/games/clash-royale/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.3,
+                "rating_count": 35000000
+            }
+        ]
+    },
+    {
+        "title": "Honkai: Star Rail",
+        "description": "A space fantasy turn-based RPG with tactical combat, rich lore, and cinematic animations.",
+        "release_date": "2023-04-26",
+        "developer": {
+            "name": "miHoYo",
+            "logo": "media/developers/mihoyo.png",
+            "website": "https://www.mihoyo.com"
+        },
+        "publisher": {
+            "name": "Cognosphere",
+            "logo": "media/publishers/cognosphere.png",
+            "website": "https://hoyoverse.com"
+        },
+        "website": "https://hsr.hoyoverse.com",
+        "status": "released",
+        "genres": [
+            "Turn-Based RPG",
+            "Adventure",
+            "Anime"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "2.4",
+                "logo": "media/platforms/android.png",
+                "release_date": "2023-04-26",
+                "download_size": "18 GB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "4 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Snapdragon 835",
+                        "gpu": "Adreno 540",
+                        "storage": "20 GB"
+                    },
+                    "recommended": {
+                        "ram": "6 GB",
+                        "system_version": "Android 11",
+                        "cpu": "Snapdragon 855",
+                        "gpu": "Adreno 640",
+                        "storage": "20 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/honkai-star-rail/icon.png",
+            "media/games/honkai-star-rail/cover.png",
+            "media/games/honkai-star-rail/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.4,
+                "rating_count": 1200000
+            }
+        ]
+    },
+    {
+        "title": "League of Legends: Wild Rift",
+        "description": "A 5v5 multiplayer online battle arena (MOBA) game built specifically for mobile devices.",
+        "release_date": "2020-10-27",
+        "developer": {
+            "name": "Riot Games",
+            "logo": "media/developers/riot.png",
+            "website": "https://www.riotgames.com"
+        },
+        "publisher": {
+            "name": "Riot Games",
+            "logo": "media/publishers/riot.png",
+            "website": "https://www.riotgames.com"
+        },
+        "website": "https://wildrift.leagueoflegends.com",
+        "status": "released",
+        "genres": [
+            "MOBA",
+            "Strategy",
+            "Action"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "5.2",
+                "logo": "media/platforms/android.png",
+                "release_date": "2020-10-27",
+                "download_size": "3.5 GB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 5.1",
+                        "cpu": "Quad-core 1.5 GHz",
+                        "gpu": "Mali-T760",
+                        "storage": "5 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "6 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/wild-rift/icon.png",
+            "media/games/wild-rift/cover.png",
+            "media/games/wild-rift/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.1,
+                "rating_count": 2800000
+            }
+        ]
+    },
+    {
+        "title": "Stardew Valley",
+        "description": "An open-ended country-life RPG where players farm, raise animals, craft goods, and socialize.",
+        "release_date": "2019-03-14",
+        "developer": {
+            "name": "ConcernedApe",
+            "logo": "media/developers/concernedape.png",
+            "website": "https://www.stardewvalley.net"
+        },
+        "publisher": {
+            "name": "ConcernedApe",
+            "logo": "media/publishers/concernedape.png",
+            "website": "https://www.stardewvalley.net"
+        },
+        "website": "https://www.stardewvalley.net",
+        "status": "released",
+        "genres": [
+            "Simulation",
+            "RPG",
+            "Farming"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "1.5.6.39",
+                "logo": "media/platforms/android.png",
+                "release_date": "2019-03-14",
+                "download_size": "350 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 4.4",
+                        "cpu": "Dual-core 1.2 GHz",
+                        "gpu": "Adreno 306",
+                        "storage": "600 MB"
+                    },
+                    "recommended": {
+                        "ram": "3 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Quad-core 1.8 GHz",
+                        "gpu": "Mali-G51",
+                        "storage": "1 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/stardew-valley/icon.png",
+            "media/games/stardew-valley/cover.png",
+            "media/games/stardew-valley/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.7,
+                "rating_count": 180000
+            }
+        ]
+    },
+    {
+        "title": "Minecraft",
+        "description": "A sandbox game where players build, mine, craft, and survive in procedurally generated 3D worlds.",
+        "release_date": "2011-10-07",
+        "developer": {
+            "name": "Mojang Studios",
+            "logo": "media/developers/mojang.png",
+            "website": "https://www.minecraft.net"
+        },
+        "publisher": {
+            "name": "Skybox Labs",
+            "logo": "media/publishers/xbox-game-studios.png",
+            "website": "https://www.xbox.com"
+        },
+        "website": "https://www.minecraft.net",
+        "status": "released",
+        "genres": [
+            "Sandbox",
+            "Survival",
+            "Crafting"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "1.21.20",
+                "logo": "media/platforms/android.png",
+                "release_date": "2011-10-07",
+                "download_size": "800 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Snapdragon 425",
+                        "gpu": "Adreno 308",
+                        "storage": "1 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 665",
+                        "gpu": "Adreno 610",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/minecraft/icon.png",
+            "media/games/minecraft/cover.png",
+            "media/games/minecraft/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.5,
+                "rating_count": 5200000
+            }
+        ]
+    },
+    {
+        "title": "Subway Surfers",
+        "description": "An endless runner game where players dodge oncoming trains and obstacles while collecting coins.",
+        "release_date": "2012-09-20",
+        "developer": {
+            "name": "SYBO Games",
+            "logo": "media/developers/sybo.png",
+            "website": "https://www.sybogames.com"
+        },
+        "publisher": {
+            "name": "SYBO Games",
+            "logo": "media/publishers/sybo.png",
+            "website": "https://www.sybogames.com"
+        },
+        "website": "https://subwaysurfers.com",
+        "status": "released",
+        "genres": [
+            "Endless Runner",
+            "Arcade"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "3.32.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2012-09-20",
+                "download_size": "180 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 5.0",
+                        "cpu": "Cortex-A7",
+                        "gpu": "Mali-400 MP2",
+                        "storage": "300 MB"
+                    },
+                    "recommended": {
+                        "ram": "2 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Snapdragon 435",
+                        "gpu": "Adreno 505",
+                        "storage": "500 MB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/subway-surfers/icon.png",
+            "media/games/subway-surfers/cover.png",
+            "media/games/subway-surfers/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.6,
+                "rating_count": 41000000
+            }
+        ]
+    }
 ]
