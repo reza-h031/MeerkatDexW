@@ -1,0 +1,602 @@
+[
+    {
+        "title": "Free Fire",
+        "description": "A fast-paced battle royale game where players fight to survive and become the last player standing.",
+        "release_date": "2017-12-04",
+        "developer": {
+            "name": "111dots Studio",
+            "logo": "media/developers/111dots.png",
+            "website": "https://ff.garena.com"
+        },
+        "publisher": {
+            "name": "Garena",
+            "logo": "media/publishers/garena.png",
+            "website": "https://www.garena.com"
+        },
+        "website": "https://ff.garena.com",
+        "status": "released",
+        "genres": [
+            "Battle Royale",
+            "Action",
+            "Shooter"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "1.117.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2017-12-04",
+                "download_size": "700 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 4.4",
+                        "cpu": "Dual-core 1.2 GHz",
+                        "gpu": "Mali-400 / Adreno 305",
+                        "storage": "1.5 GB"
+                    },
+                    "recommended": {
+                        "ram": "3 GB",
+                        "system_version": "Android 7.0",
+                        "cpu": "Octa-core 1.8 GHz",
+                        "gpu": "Adreno 506 / Mali-G72",
+                        "storage": "3 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/free-fire/icon.png",
+            "media/games/free-fire/cover.png",
+            "media/games/free-fire/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.2,
+                "rating_count": 12500000
+            }
+        ]
+    },
+    {
+        "title": "Brawl Stars",
+        "description": "A fast-paced multiplayer game featuring competitive battles, unique brawlers, and multiple game modes.",
+        "release_date": "2018-12-12",
+        "developer": {
+            "name": "Supercell",
+            "logo": "media/developers/supercell.png",
+            "website": "https://supercell.com"
+        },
+        "publisher": {
+            "name": "Supercell",
+            "logo": "media/publishers/supercell.png",
+            "website": "https://supercell.com"
+        },
+        "website": "https://supercell.com/en/games/brawlstars/",
+        "status": "released",
+        "genres": [
+            "Action",
+            "Shooter",
+            "Multiplayer"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "63.1.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2018-12-12",
+                "download_size": "500 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 7.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "1 GB"
+                    },
+                    "recommended": {
+                        "ram": "2 GB",
+                        "system_version": "Android 9.0",
+                        "cpu": "Snapdragon 636",
+                        "gpu": "Adreno 509",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/brawl-stars/icon.png",
+            "media/games/brawl-stars/cover.png",
+            "media/games/brawl-stars/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.5,
+                "rating_count": 12500000
+            }
+        ]
+    },
+    {
+        "title": "Roblox",
+        "description": "An online platform where players can create, explore, and play millions of user-generated experiences.",
+        "release_date": "2006-09-01",
+        "developer": {
+            "name": "Roblox Corporation",
+            "logo": "media/developers/roblox.png",
+            "website": "https://www.roblox.com"
+        },
+        "publisher": {
+            "name": "Roblox Corporation",
+            "logo": "media/publishers/roblox.png",
+            "website": "https://www.roblox.com"
+        },
+        "website": "https://www.roblox.com",
+        "status": "released",
+        "genres": [
+            "Adventure",
+            "Simulation",
+            "Multiplayer"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "2.700.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2015-12-16",
+                "download_size": "180 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "OpenGL ES 3.0+",
+                        "storage": "500 MB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/roblox/icon.png",
+            "media/games/roblox/cover.png",
+            "media/games/roblox/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.3,
+                "rating_count": 40000000
+            }
+        ]
+    },
+    {
+        "title": "Mobile Legends: Bang Bang",
+        "description": "A fast-paced 5v5 multiplayer online battle arena game featuring strategic team combat and competitive matches.",
+        "release_date": "2016-07-14",
+        "developer": {
+            "name": "MOONTON",
+            "logo": "media/developers/moonton.png",
+            "website": "https://www.moonton.com"
+        },
+        "publisher": {
+            "name": "MOONTON",
+            "logo": "media/publishers/moonton.png",
+            "website": "https://www.moonton.com"
+        },
+        "website": "https://www.mobilelegends.com",
+        "status": "released",
+        "genres": [
+            "MOBA",
+            "Action",
+            "Strategy"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "2.1.20.1",
+                "logo": "media/platforms/android.png",
+                "release_date": "2016-07-14",
+                "download_size": "150 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 4.1",
+                        "cpu": "Quad-core 1.3 GHz",
+                        "gpu": "Mali-400 MP2 / Adreno 306",
+                        "storage": "2 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Snapdragon 625",
+                        "gpu": "Adreno 506",
+                        "storage": "4 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/mobile-legends/icon.png",
+            "media/games/mobile-legends/cover.png",
+            "media/games/mobile-legends/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.4,
+                "rating_count": 38000000
+            }
+        ]
+    },
+    {
+        "title": "Candy Crush Saga",
+        "description": "A colorful match-three puzzle game where players match candies, complete levels, and overcome challenging obstacles.",
+        "release_date": "2012-11-14",
+        "developer": {
+            "name": "King",
+            "logo": "media/developers/king.png",
+            "website": "https://www.king.com"
+        },
+        "publisher": {
+            "name": "King",
+            "logo": "media/publishers/king.png",
+            "website": "https://www.king.com"
+        },
+        "website": "https://www.candycrushsaga.com",
+        "status": "released",
+        "genres": [
+            "Puzzle",
+            "Casual",
+            "Match-3"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "1.335.1.2",
+                "logo": "media/platforms/android.png",
+                "release_date": "2012-11-14",
+                "download_size": "100 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 6.0",
+                        "cpu": "Dual-core 1.2 GHz",
+                        "gpu": "Adreno 305 / Mali-400",
+                        "storage": "200 MB"
+                    },
+                    "recommended": {
+                        "ram": "2 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "500 MB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/candy-crush-saga/icon.png",
+            "media/games/candy-crush-saga/cover.png",
+            "media/games/candy-crush-saga/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.5,
+                "rating_count": 38000000
+            }
+        ]
+    },
+    {
+        "title": "EA SPORTS FC Mobile",
+        "description": "A mobile football game featuring real-world teams, players, competitions, and competitive football gameplay.",
+        "release_date": "2016-10-11",
+        "developer": {
+            "name": "EA Mobile",
+            "logo": "media/developers/ea.png",
+            "website": "https://www.ea.com"
+        },
+        "publisher": {
+            "name": "Electronic Arts",
+            "logo": "media/publishers/ea.png",
+            "website": "https://www.ea.com"
+        },
+        "website": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+        "status": "released",
+        "genres": [
+            "Sports",
+            "Football",
+            "Simulation"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "26.1.01",
+                "logo": "media/platforms/android.png",
+                "release_date": "2016-10-11",
+                "download_size": "350 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1.7 GB",
+                        "system_version": "Android 6.0",
+                        "cpu": "Quad-core 1.5 GHz",
+                        "gpu": "Adreno 405 / Mali-T628",
+                        "storage": "2 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "4 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/fc-mobile/icon.png",
+            "media/games/fc-mobile/cover.png",
+            "media/games/fc-mobile/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.4,
+                "rating_count": 12000000
+            }
+        ]
+    },
+    {
+        "title": "Among Us",
+        "description": "A multiplayer social deduction game where crewmates complete tasks while impostors secretly eliminate the crew.",
+        "release_date": "2018-06-15",
+        "developer": {
+            "name": "Innersloth",
+            "logo": "media/developers/innersloth.png",
+            "website": "https://www.innersloth.com"
+        },
+        "publisher": {
+            "name": "Innersloth",
+            "logo": "media/publishers/innersloth.png",
+            "website": "https://www.innersloth.com"
+        },
+        "website": "https://www.innersloth.com/games/among-us/",
+        "status": "released",
+        "genres": [
+            "Party",
+            "Multiplayer",
+            "Social Deduction"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "2026.6.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2018-06-15",
+                "download_size": "100 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2.1 GB",
+                        "system_version": "Android 6.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "250 MB"
+                    },
+                    "recommended": {
+                        "ram": "3 GB",
+                        "system_version": "Android 9.0",
+                        "cpu": "Snapdragon 625",
+                        "gpu": "Adreno 506",
+                        "storage": "500 MB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/among-us/icon.png",
+            "media/games/among-us/cover.png",
+            "media/games/among-us/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.1,
+                "rating_count": 15000000
+            }
+        ]
+    },
+    {
+        "title": "Plants vs. Zombies 2",
+        "description": "A tower defense game where players use powerful plants to defend their homes against waves of zombies across different worlds.",
+        "release_date": "2013-08-15",
+        "developer": {
+            "name": "PopCap Games",
+            "logo": "media/developers/popcap.png",
+            "website": "https://www.ea.com/ea-studios/popcap"
+        },
+        "publisher": {
+            "name": "Electronic Arts",
+            "logo": "media/publishers/ea.png",
+            "website": "https://www.ea.com"
+        },
+        "website": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-2",
+        "status": "released",
+        "genres": [
+            "Tower Defense",
+            "Strategy",
+            "Casual"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "11.9.1",
+                "logo": "media/platforms/android.png",
+                "release_date": "2013-10-23",
+                "download_size": "1.2 GB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 7.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "1.5 GB"
+                    },
+                    "recommended": {
+                        "ram": "3 GB",
+                        "system_version": "Android 9.0",
+                        "cpu": "Snapdragon 636",
+                        "gpu": "Adreno 509",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/plants-vs-zombies-2/icon.png",
+            "media/games/plants-vs-zombies-2/cover.png",
+            "media/games/plants-vs-zombies-2/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.2,
+                "rating_count": 7500000
+            }
+        ]
+    },
+    {
+        "title": "Shadow Fight 2",
+        "description": "A fighting RPG where players battle opponents, learn martial arts techniques, and equip powerful weapons and armor.",
+        "release_date": "2014-05-01",
+        "developer": {
+            "name": "NEKKI",
+            "logo": "media/developers/nekki.png",
+            "website": "https://nekki.com"
+        },
+        "publisher": {
+            "name": "NEKKI",
+            "logo": "media/publishers/nekki.png",
+            "website": "https://nekki.com"
+        },
+        "website": "https://shadowfight.com",
+        "status": "released",
+        "genres": [
+            "Fighting",
+            "RPG",
+            "Action"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "2.40.5",
+                "logo": "media/platforms/android.png",
+                "release_date": "2014-05-01",
+                "download_size": "150 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 5.0",
+                        "cpu": "Dual-core 1.2 GHz",
+                        "gpu": "Adreno 305 / Mali-400",
+                        "storage": "300 MB"
+                    },
+                    "recommended": {
+                        "ram": "2 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "500 MB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/shadow-fight-2/icon.png",
+            "media/games/shadow-fight-2/cover.png",
+            "media/games/shadow-fight-2/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.6,
+                "rating_count": 16700000
+            }
+        ]
+    },
+    {
+        "title": "Terraria",
+        "description": "A sandbox adventure game where players explore, build, craft, fight enemies, and discover a vast procedurally generated world.",
+        "release_date": "2011-05-16",
+        "developer": {
+            "name": "Re-Logic",
+            "logo": "media/developers/Re-Logic.png",
+            "website": "https://re-logic.com/"
+        },
+        "publisher": {
+            "name": "505 Games",
+            "logo": "media/publishers/505-games.png",
+            "website": "https://505games.com"
+        },
+        "website": "https://terraria.org",
+        "status": "released",
+        "genres": [
+            "Sandbox",
+            "Adventure",
+            "Survival"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "1.4.5.8.5",
+                "logo": "media/platforms/android.png",
+                "release_date": "2011-08-30",
+                "download_size": "250 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 4.3",
+                        "cpu": "Dual-core 1.2 GHz",
+                        "gpu": "Adreno 305 / Mali-400",
+                        "storage": "300 MB"
+                    },
+                    "recommended": {
+                        "ram": "1.5 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "500 MB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/terraria/icon.png",
+            "media/games/terraria/cover.png",
+            "media/games/terraria/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.7,
+                "rating_count": 1200000
+            }
+        ]
+    }
+]

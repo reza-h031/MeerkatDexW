@@ -1,0 +1,603 @@
+[
+    {
+        "title": "Pokémon GO",
+        "description": "An augmented reality adventure game where players explore the real world, discover Pokémon, and battle alongside other Trainers.",
+        "release_date": "2016-07-06",
+        "developer": {
+            "name": "Niantic",
+            "logo": "media/developers/niantic.png",
+            "website": "https://nianticlabs.com"
+        },
+        "publisher": {
+            "name": "Niantic",
+            "logo": "media/publishers/niantic.png",
+            "website": "https://nianticlabs.com"
+        },
+        "website": "https://pokemongolive.com",
+        "status": "released",
+        "genres": [
+            "Adventure",
+            "AR",
+            "Casual"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "0.375.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2016-07-06",
+                "download_size": "120 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 6.0",
+                        "cpu": "Quad-core 1.5 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "500 MB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/pokemon-go/icon.png",
+            "media/games/pokemon-go/cover.png",
+            "media/games/pokemon-go/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.1,
+                "rating_count": 16000000
+            }
+        ]
+    },
+    {
+        "title": "Diablo Immortal",
+        "description": "An action RPG set in the Diablo universe where players explore dark dungeons, fight demons, and develop powerful characters.",
+        "release_date": "2022-06-02",
+        "developer": {
+            "name": "Blizzard Entertainment",
+            "logo": "media/developers/blizzard.png",
+            "website": "https://www.blizzard.com"
+        },
+        "publisher": {
+            "name": "Blizzard Entertainment",
+            "logo": "media/publishers/blizzard.png",
+            "website": "https://www.blizzard.com"
+        },
+        "website": "https://diabloimmortal.blizzard.com",
+        "status": "released",
+        "genres": [
+            "Action",
+            "RPG",
+            "Adventure"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "3.5.2",
+                "logo": "media/platforms/android.png",
+                "release_date": "2022-06-02",
+                "download_size": "2.5 GB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 5.0",
+                        "cpu": "Snapdragon 670 / Exynos 8895",
+                        "gpu": "Adreno 615 / Mali-G71",
+                        "storage": "5 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 855",
+                        "gpu": "Adreno 640",
+                        "storage": "10 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/diablo-immortal/icon.png",
+            "media/games/diablo-immortal/cover.png",
+            "media/games/diablo-immortal/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.5,
+                "rating_count": 1800000
+            }
+        ]
+    },
+    {
+        "title": "Dead Cells",
+        "description": "A challenging roguelike action platformer where players explore ever-changing levels, fight enemies, and discover powerful weapons.",
+        "release_date": "2018-08-07",
+        "developer": {
+            "name": "Playdigious",
+            "logo": "media/developers/playdigious.png",
+            "website": "https://playdigious.com"
+        },
+        "publisher": {
+            "name": "Playdigious",
+            "logo": "media/publishers/playdigious.png",
+            "website": "https://playdigious.com"
+        },
+        "website": "https://deadcells.com",
+        "status": "released",
+        "genres": [
+            "Action",
+            "Roguelike",
+            "Platformer"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "3.5.9",
+                "logo": "media/platforms/android.png",
+                "release_date": "2019-06-03",
+                "download_size": "600 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 7.0",
+                        "cpu": "Quad-core 1.5 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "1.5 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/dead-cells/icon.png",
+            "media/games/dead-cells/cover.png",
+            "media/games/dead-cells/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.8,
+                "rating_count": 250000
+            }
+        ]
+    },
+    {
+        "title": "Stumble Guys",
+        "description": "A multiplayer knockout game where players compete through chaotic obstacle courses and try to be the last contestant standing.",
+        "release_date": "2020-09-24",
+        "developer": {
+            "name": "Scopely",
+            "logo": "media/developers/scopely.png",
+            "website": "https://www.scopely.com"
+        },
+        "publisher": {
+            "name": "Scopely",
+            "logo": "media/publishers/scopely.png",
+            "website": "https://www.scopely.com"
+        },
+        "website": "https://www.stumbleguys.com",
+        "status": "released",
+        "genres": [
+            "Party",
+            "Platformer",
+            "Multiplayer"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "0.102",
+                "logo": "media/platforms/android.png",
+                "release_date": "2020-09-24",
+                "download_size": "150 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 6.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "500 MB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/stumble-guys/icon.png",
+            "media/games/stumble-guys/cover.png",
+            "media/games/stumble-guys/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.2,
+                "rating_count": 7000000
+            }
+        ]
+    },
+    {
+        "title": "Temple Run 2",
+        "description": "An endless running adventure where players run through dangerous environments, avoid obstacles, collect coins, and escape enemies.",
+        "release_date": "2013-01-23",
+        "developer": {
+            "name": "Imangi Studios",
+            "logo": "media/developers/imangi.png",
+            "website": "https://imangistudios.com"
+        },
+        "publisher": {
+            "name": "Imangi Studios",
+            "logo": "media/publishers/imangi.png",
+            "website": "https://imangistudios.com"
+        },
+        "website": "https://imangistudios.com/temple-run-2",
+        "status": "released",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Endless Runner"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "1.136.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2013-01-23",
+                "download_size": "135 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 6.0",
+                        "cpu": "Dual-core 1.2 GHz",
+                        "gpu": "Adreno 205 / Mali-400",
+                        "storage": "300 MB"
+                    },
+                    "recommended": {
+                        "ram": "2 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "500 MB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/temple-run-2/icon.png",
+            "media/games/temple-run-2/cover.png",
+            "media/games/temple-run-2/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.1,
+                "rating_count": 8800000
+            }
+        ]
+    },
+    {
+        "title": "Gardenscapes",
+        "description": "A match-three puzzle game where players solve puzzles, restore a beautiful garden, and follow an adventure-filled story.",
+        "release_date": "2016-08-24",
+        "developer": {
+            "name": "Playrix",
+            "logo": "media/developers/playrix.png",
+            "website": "https://www.playrix.com"
+        },
+        "publisher": {
+            "name": "Playrix",
+            "logo": "media/publishers/playrix.png",
+            "website": "https://www.playrix.com"
+        },
+        "website": "https://www.playrix.com/gardenscapes",
+        "status": "released",
+        "genres": [
+            "Puzzle",
+            "Casual",
+            "Match-3"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "9.9.5",
+                "logo": "media/platforms/android.png",
+                "release_date": "2016-08-24",
+                "download_size": "180 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 6.0",
+                        "cpu": "Dual-core 1.2 GHz",
+                        "gpu": "Adreno 305 / Mali-400",
+                        "storage": "1 GB"
+                    },
+                    "recommended": {
+                        "ram": "2 GB",
+                        "system_version": "Android 9.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "2 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/gardenscapes/icon.png",
+            "media/games/gardenscapes/cover.png",
+            "media/games/gardenscapes/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.6,
+                "rating_count": 13000000
+            }
+        ]
+    },
+    {
+        "title": "The Sims FreePlay",
+        "description": "A life simulation game where players create Sims, build homes, develop relationships, and manage an entire virtual town.",
+        "release_date": "2011-12-15",
+        "developer": {
+            "name": "Firemonkeys Studios",
+            "logo": "media/developers/firemonkeys.png",
+            "website": "https://www.ea.com/ea-studios/firemonkeys"
+        },
+        "publisher": {
+            "name": "Electronic Arts",
+            "logo": "media/publishers/ea.png",
+            "website": "https://www.ea.com"
+        },
+        "website": "https://www.ea.com/games/the-sims/the-sims-freeplay",
+        "status": "released",
+        "genres": [
+            "Simulation",
+            "Casual",
+            "Life"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "117.1.280231",
+                "logo": "media/platforms/android.png",
+                "release_date": "2011-12-15",
+                "download_size": "182 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 7.0",
+                        "cpu": "Quad-core 1.5 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "2 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "4 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/the-sims-freeplay/icon.png",
+            "media/games/the-sims-freeplay/cover.png",
+            "media/games/the-sims-freeplay/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.6,
+                "rating_count": 4600000
+            }
+        ]
+    },
+    {
+        "title": "Asphalt 8: Airborne",
+        "description": "A high-speed arcade racing game featuring hundreds of licensed cars and motorcycles, spectacular tracks, and competitive races.",
+        "release_date": "2013-08-22",
+        "developer": {
+            "name": "Gameloft",
+            "logo": "media/developers/gameloft.png",
+            "website": "https://www.gameloft.com"
+        },
+        "publisher": {
+            "name": "Gameloft",
+            "logo": "media/publishers/gameloft.png",
+            "website": "https://www.gameloft.com"
+        },
+        "website": "https://www.gameloft.com/game/asphalt-8",
+        "status": "released",
+        "genres": [
+            "Racing",
+            "Arcade",
+            "Sports"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "8.9.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2013-08-22",
+                "download_size": "3 GB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "2 GB",
+                        "system_version": "Android 6.0",
+                        "cpu": "Quad-core 1.5 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "4 GB"
+                    },
+                    "recommended": {
+                        "ram": "4 GB",
+                        "system_version": "Android 10",
+                        "cpu": "Snapdragon 660",
+                        "gpu": "Adreno 512",
+                        "storage": "6 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/asphalt-8-airborne/icon.png",
+            "media/games/asphalt-8-airborne/cover.png",
+            "media/games/asphalt-8-airborne/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.6,
+                "rating_count": 12000000
+            }
+        ]
+    },
+    {
+        "title": "Geometry Dash",
+        "description": "A rhythm-based platformer where players jump and fly through challenging levels while moving to energetic music.",
+        "release_date": "2013-08-13",
+        "developer": {
+            "name": "RobTop Games",
+            "logo": "media/developers/robtop-games.png",
+            "website": "https://www.robtopgames.com"
+        },
+        "publisher": {
+            "name": "RobTop Games",
+            "logo": "media/publishers/robtop-games.png",
+            "website": "https://www.robtopgames.com"
+        },
+        "website": "https://www.robtopgames.com",
+        "status": "released",
+        "genres": [
+            "Platformer",
+            "Rhythm",
+            "Arcade"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "2.2.143",
+                "logo": "media/platforms/android.png",
+                "release_date": "2013-08-13",
+                "download_size": "150 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 5.0",
+                        "cpu": "Dual-core 1.2 GHz",
+                        "gpu": "Adreno 305 / Mali-400",
+                        "storage": "200 MB"
+                    },
+                    "recommended": {
+                        "ram": "2 GB",
+                        "system_version": "Android 8.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "500 MB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/geometry-dash/icon.png",
+            "media/games/geometry-dash/cover.png",
+            "media/games/geometry-dash/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.7,
+                "rating_count": 1800000
+            }
+        ]
+    },
+    {
+        "title": "Monument Valley",
+        "description": "A beautifully designed puzzle adventure where players manipulate impossible architecture and guide a princess through surreal environments.",
+        "release_date": "2014-04-03",
+        "developer": {
+            "name": "ustwo games",
+            "logo": "media/developers/ustwo-games.png",
+            "website": "https://ustwogames.co.uk"
+        },
+        "publisher": {
+            "name": "ustwo games",
+            "logo": "media/publishers/ustwo-games.png",
+            "website": "https://ustwogames.co.uk"
+        },
+        "website": "https://www.monumentvalleygame.com",
+        "status": "released",
+        "genres": [
+            "Puzzle",
+            "Adventure",
+            "Casual"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "3.7.0",
+                "logo": "media/platforms/android.png",
+                "release_date": "2014-05-14",
+                "download_size": "280 MB",
+                "requirement": {
+                    "minimum": {
+                        "ram": "1 GB",
+                        "system_version": "Android 7.0",
+                        "cpu": "Dual-core 1.2 GHz",
+                        "gpu": "Adreno 305 / Mali-400",
+                        "storage": "500 MB"
+                    },
+                    "recommended": {
+                        "ram": "2 GB",
+                        "system_version": "Android 9.0",
+                        "cpu": "Quad-core 1.4 GHz",
+                        "gpu": "Adreno 306 / Mali-T720",
+                        "storage": "1 GB"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/monument-valley/icon.png",
+            "media/games/monument-valley/cover.png",
+            "media/games/monument-valley/screenshot-1.png"
+        ],
+        "ratings": [
+            {
+                "source": "Google Play",
+                "logo_source": "media/ratings/google-play.png",
+                "rating": 4.8,
+                "rating_count": 250000
+            }
+        ]
+    }
+]
+

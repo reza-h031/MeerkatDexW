@@ -1,0 +1,601 @@
+
+[
+{
+"title": "Fortnite",
+"description": "Fortnite is a battle royale and multiplayer action game featuring large-scale battles, building, creative experiences, and a constantly changing world.",
+"release_date": "2017-09-26",
+"developer": {
+"name": "Epic Games",
+"logo": "media/developers/epic-games.png",
+"website": "https://www.epicgames.com/"
+},
+"publisher": {
+"name": "Epic Games",
+"logo": "media/publishers/epic-games.png",
+"website": "https://www.epicgames.com/"
+},
+"website": "https://www.fortnite.com/",
+"status": "released",
+"genres": [
+"Action",
+"Battle Royale",
+"Shooter"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "Latest",
+"logo": "media/platforms/android.png",
+"release_date": "2018-08-09",
+"download_size": "Approx. 2.5 GB",
+"requirement": {
+"minimum": {
+"ram": "4 GB",
+"system_version": "Android 10.0",
+"cpu": "ARM64 64-bit processor",
+"gpu": "Adreno 530 or higher / Mali-G71 MP20 / Mali-G72 MP12 or higher",
+"storage": "3 GB"
+},
+"recommended": {
+"ram": "8 GB",
+"system_version": "Android 14.0",
+"cpu": "Snapdragon 8 Gen 3 or newer / Exynos 2400 or newer / Dimensity 9200 or newer",
+"gpu": "High-end modern mobile GPU",
+"storage": "8 GB"
+}
+}
+}
+],
+"images": [
+"media/games/fortnite/icon.png",
+"media/games/fortnite/cover.png",
+"media/games/fortnite/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.6,
+"rating_count": 511000
+}
+]
+},
+{
+"title": "Pokémon UNITE",
+"description": "Pokémon UNITE is a strategic 5-on-5 team battle game where players work together to defeat opponents, level up Pokémon, and score points.",
+"release_date": "2021-07-21",
+"developer": {
+"name": "TiMi Studio Group",
+"logo": "media/developers/timi.png",
+"website": "https://www.tencent.com/"
+},
+"publisher": {
+"name": "The Pokémon Company",
+"logo": "media/publishers/the-pokemon-company.png",
+"website": "https://www.pokemon.com/"
+},
+"website": "https://unite.pokemon.com/",
+"status": "released",
+"genres": [
+"Action",
+"MOBA",
+"Strategy"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "Latest",
+"logo": "media/platforms/android.png",
+"release_date": "2021-09-22",
+"download_size": "Approx. 1.0 GB",
+"requirement": {
+"minimum": {
+"ram": "3 GB",
+"system_version": "Android 5.0",
+"cpu": "Octa-core 1.8 GHz or higher",
+"gpu": "Adreno 506 or higher",
+"storage": "2 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10.0",
+"cpu": "Octa-core 2.0 GHz or higher / Snapdragon 660 or higher",
+"gpu": "Adreno 512 or higher",
+"storage": "4 GB"
+}
+}
+}
+],
+"images": [
+"media/games/pokemon-unite/icon.png",
+"media/games/pokemon-unite/cover.png",
+"media/games/pokemon-unite/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.4,
+"rating_count": 1860000
+}
+]
+},
+{
+"title": "Mario Kart Tour",
+"description": "Mario Kart Tour is a mobile racing game featuring Mario and friends competing on courses inspired by real-world cities and classic Mario Kart tracks.",
+"release_date": "2019-09-25",
+"developer": {
+"name": "Nintendo",
+"logo": "media/developers/nintendo.png",
+"website": "https://www.nintendo.com/"
+},
+"publisher": {
+"name": "Nintendo",
+"logo": "media/publishers/nintendo.png",
+"website": "https://www.nintendo.com/"
+},
+"website": "https://mariokarttour.com/",
+"status": "discontinued",
+"genres": [
+"Racing",
+"Arcade"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "4.8.0",
+"logo": "media/platforms/android.png",
+"release_date": "2019-09-25",
+"download_size": "Approx. 150 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 6.0",
+"cpu": "Quad-core processor",
+"gpu": "Adreno 306 / Mali-T720 or equivalent",
+"storage": "1 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10.0",
+"cpu": "Octa-core processor",
+"gpu": "Modern mid-range GPU",
+"storage": "2 GB"
+}
+}
+}
+],
+"images": [
+"media/games/mario-kart-tour/icon.png",
+"media/games/mario-kart-tour/cover.png",
+"media/games/mario-kart-tour/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.3,
+"rating_count": 2180000
+}
+]
+},
+{
+"title": "Angry Birds 2",
+"description": "Angry Birds 2 is a physics-based puzzle game where players launch birds at structures to defeat pigs and progress through colorful levels.",
+"release_date": "2015-07-30",
+"developer": {
+"name": "Rovio Entertainment",
+"logo": "media/developers/rovio.png",
+"website": "https://www.rovio.com/"
+},
+"publisher": {
+"name": "Rovio Entertainment",
+"logo": "media/publishers/rovio.png",
+"website": "https://www.rovio.com/"
+},
+"website": "https://www.rovio.com/games/angry-birds-2/",
+"status": "released",
+"genres": [
+"Puzzle",
+"Casual"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "Latest",
+"logo": "media/platforms/android.png",
+"release_date": "2015-07-30",
+"download_size": "Approx. 280 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 7.0",
+"cpu": "ARMv7 or ARM64",
+"gpu": "OpenGL ES 3.0+ or Vulkan",
+"storage": "At least 470 MB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 15.0",
+"cpu": "ARM64 processor",
+"gpu": "Vulkan-capable GPU",
+"storage": "At least 570 MB"
+}
+}
+}
+],
+"images": [
+"media/games/angry-birds-2/icon.png",
+"media/games/angry-birds-2/cover.png",
+"media/games/angry-birds-2/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 3.9,
+"rating_count": 6310000
+}
+]
+},
+{
+"title": "Fruit Ninja",
+"description": "Fruit Ninja is an arcade action game where players slice flying fruit while avoiding bombs and competing for high scores.",
+"release_date": "2010-09-17",
+"developer": {
+"name": "Halfbrick Studios",
+"logo": "media/developers/halfbrick-studios.png",
+"website": "https://www.halfbrick.com/"
+},
+"publisher": {
+"name": "Halfbrick Studios",
+"logo": "media/publishers/halfbrick-studios.png",
+"website": "https://www.halfbrick.com/"
+},
+"website": "https://www.halfbrick.com/games/fruit-ninja/",
+"status": "released",
+"genres": [
+"Arcade",
+"Action",
+"Casual"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "Latest",
+"logo": "media/platforms/android.png",
+"release_date": "2010-09-17",
+"download_size": "Approx. 150 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 6.0",
+"cpu": "Quad-core processor",
+"gpu": "Adreno 306 / Mali-T720 or equivalent",
+"storage": "500 MB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10.0",
+"cpu": "Octa-core processor",
+"gpu": "Modern mid-range GPU",
+"storage": "1 GB"
+}
+}
+}
+],
+"images": [
+"media/games/fruit-ninja/icon.png",
+"media/games/fruit-ninja/cover.png",
+"media/games/fruit-ninja/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.4,
+"rating_count": 4620000
+}
+]
+},
+{
+"title": "Jetpack Joyride",
+"description": "Jetpack Joyride is an endless runner where players control Barry Steakfries, fly through a laboratory, avoid obstacles, collect coins, and complete missions.",
+"release_date": "2012-09-28",
+"developer": {
+"name": "Halfbrick Studios",
+"logo": "media/developers/halfbrick-studios.png",
+"website": "https://www.halfbrick.com/"
+},
+"publisher": {
+"name": "Halfbrick Studios",
+"logo": "media/publishers/halfbrick-studios.png",
+"website": "https://www.halfbrick.com/"
+},
+"website": "https://www.halfbrick.com/games/jetpack-joyride/",
+"status": "released",
+"genres": [
+"Arcade",
+"Action",
+"Endless Runner"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "Latest",
+"logo": "media/platforms/android.png",
+"release_date": "2012-09-28",
+"download_size": "Approx. 150 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 6.0",
+"cpu": "Quad-core processor",
+"gpu": "Adreno 306 / Mali-T720 or equivalent",
+"storage": "500 MB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10.0",
+"cpu": "Octa-core processor",
+"gpu": "Modern mid-range GPU",
+"storage": "1 GB"
+}
+}
+}
+],
+"images": [
+"media/games/jetpack-joyride/icon.png",
+"media/games/jetpack-joyride/cover.png",
+"media/games/jetpack-joyride/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.4,
+"rating_count": 4760000
+}
+]
+},
+{
+"title": "Bloons TD 6",
+"description": "Bloons TD 6 is a tower defense strategy game where players build powerful defenses, deploy Monkey Towers and Heroes, and stop waves of invading Bloons.",
+"release_date": "2018-06-14",
+"developer": {
+"name": "Ninja Kiwi",
+"logo": "media/developers/ninja-kiwi.png",
+"website": "https://ninjakiwi.com/"
+},
+"publisher": {
+"name": "Ninja Kiwi",
+"logo": "media/publishers/ninja-kiwi.png",
+"website": "https://ninjakiwi.com/"
+},
+"website": "https://www.bloons.com/",
+"status": "released",
+"genres": [
+"Strategy",
+"Tower Defense"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "Latest",
+"logo": "media/platforms/android.png",
+"release_date": "2018-06-14",
+"download_size": "Approx. 130 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 5.0",
+"cpu": "Quad-core processor",
+"gpu": "OpenGL ES 3.0 capable GPU",
+"storage": "500 MB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10.0",
+"cpu": "Octa-core processor",
+"gpu": "Modern mid-range GPU",
+"storage": "1 GB"
+}
+}
+}
+],
+"images": [
+"media/games/bloons-td-6/icon.png",
+"media/games/bloons-td-6/cover.png",
+"media/games/bloons-td-6/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.8,
+"rating_count": 401000
+}
+]
+},
+{
+"title": "8 Ball Pool",
+"description": "8 Ball Pool is an online multiplayer pool game where players compete in one-on-one matches, tournaments, and different pool tables.",
+"release_date": "2010-10-01",
+"developer": {
+"name": "Miniclip",
+"logo": "media/developers/miniclip.png",
+"website": "https://www.miniclip.com/"
+},
+"publisher": {
+"name": "Miniclip",
+"logo": "media/publishers/miniclip.png",
+"website": "https://www.miniclip.com/"
+},
+"website": "https://www.miniclip.com/games/8-ball-pool/",
+"status": "released",
+"genres": [
+"Sports",
+"Casual",
+"Multiplayer"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "Latest",
+"logo": "media/platforms/android.png",
+"release_date": "2013-01-01",
+"download_size": "Approx. 100 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 5.0",
+"cpu": "Quad-core processor",
+"gpu": "Adreno 306 / Mali-T720 or equivalent",
+"storage": "500 MB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10.0",
+"cpu": "Octa-core processor",
+"gpu": "Modern mid-range GPU",
+"storage": "1 GB"
+}
+}
+}
+],
+"images": [
+"media/games/8-ball-pool/icon.png",
+"media/games/8-ball-pool/cover.png",
+"media/games/8-ball-pool/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.8,
+"rating_count": 31800000
+}
+]
+},
+{
+"title": "Plants vs. Zombies",
+"description": "Plants vs. Zombies is a tower defense strategy game where players use different plants to defend their home against waves of zombies.",
+"release_date": "2009-05-05",
+"developer": {
+"name": "PopCap Games",
+"logo": "media/developers/popcap-games.png",
+"website": "https://www.ea.com/ea-studios/popcap"
+},
+"publisher": {
+"name": "Electronic Arts",
+"logo": "media/publishers/ea.png",
+"website": "https://www.ea.com/"
+},
+"website": "https://www.ea.com/games/plants-vs-zombies",
+"status": "released",
+"genres": [
+"Strategy",
+"Tower Defense",
+"Casual"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "Latest",
+"logo": "media/platforms/android.png",
+"release_date": "2014-01-01",
+"download_size": "Approx. 100 MB",
+"requirement": {
+"minimum": {
+"ram": "1 GB",
+"system_version": "Android 5.0",
+"cpu": "Dual-core processor",
+"gpu": "Adreno 305 / Mali-400 or equivalent",
+"storage": "300 MB"
+},
+"recommended": {
+"ram": "2 GB",
+"system_version": "Android 10.0",
+"cpu": "Quad-core processor",
+"gpu": "Modern GPU",
+"storage": "1 GB"
+}
+}
+}
+],
+"images": [
+"media/games/plants-vs-zombies/icon.png",
+"media/games/plants-vs-zombies/cover.png",
+"media/games/plants-vs-zombies/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 3.7,
+"rating_count": 5720000
+}
+]
+},
+{
+"title": "Fall Guys",
+"description": "Fall Guys is a colorful multiplayer party game where players compete through chaotic obstacle courses, challenges, and elimination rounds.",
+"release_date": "2020-08-04",
+"developer": {
+"name": "Mediatonic",
+"logo": "media/developers/mediatonic.png",
+"website": "https://www.mediatonicgames.com/"
+},
+"publisher": {
+"name": "Epic Games",
+"logo": "media/publishers/epic-games.png",
+"website": "https://www.epicgames.com/"
+},
+"website": "https://www.fallguys.com/",
+"status": "released",
+"genres": [
+"Action",
+"Party",
+"Platformer",
+"Multiplayer"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "11.4.0",
+"logo": "media/platforms/android.png",
+"release_date": "2024-08-16",
+"download_size": "Approx. 110.6 MB",
+"requirement": {
+"minimum": {
+"ram": "4 GB",
+"system_version": "Android 7.0",
+"cpu": "64-bit ARM64 processor",
+"gpu": "Adreno 530 or higher / Mali-G71 MP20 / Mali-G72 MP12 or higher",
+"storage": "2 GB"
+},
+"recommended": {
+"ram": "6 GB",
+"system_version": "Android 12.0",
+"cpu": "Snapdragon 865 or higher",
+"gpu": "Adreno 650 or higher",
+"storage": "4 GB"
+}
+}
+}
+],
+"images": [
+"media/games/fall-guys/icon.png",
+"media/games/fall-guys/cover.png",
+"media/games/fall-guys/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.2,
+"rating_count": 1000000
+}
+]
+}
+]
