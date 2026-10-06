@@ -6,7 +6,7 @@
 "developer": {
 "name": "Level Infinite",
 "logo": "media/developers/level-infinite.png",
-"website": "https://www.levelinfinite.com//"
+"website": "https://www.levelinfinite.com/"
 },
 "publisher": {
 "name": "Level Infinite",
@@ -24,7 +24,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Current",
+"version": "1.0.249.249",
 "logo": "media/platforms/android.png",
 "release_date": "2023-07-14",
 "download_size": "2.5 GB",
@@ -85,7 +85,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Current",
+"version": "1.26.0.88",
 "logo": "media/platforms/android.png",
 "release_date": "2023-08-15",
 "download_size": "975 MB",
@@ -146,7 +146,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Current",
+"version": "11.0.1",
 "logo": "media/platforms/android.png",
 "release_date": "2022-06-02",
 "download_size": "3.1 GB",
@@ -207,7 +207,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Current",
+"version": "10.20.12479169",
 "logo": "media/platforms/android.png",
 "release_date": "2018-11-17",
 "download_size": "1.8 GB",
@@ -268,7 +268,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Current",
+"version": "2.73.0",
 "logo": "media/platforms/android.png",
 "release_date": "2019-08-29",
 "download_size": "1.5 GB",
@@ -329,7 +329,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Current",
+"version": "7.9.102",
 "logo": "media/platforms/android.png",
 "release_date": "2021-01-21",
 "download_size": "1.5 GB",
@@ -390,7 +390,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Current",
+"version": "3.53.0",
 "logo": "media/platforms/android.png",
 "release_date": "2020-07-28",
 "download_size": "500 MB",
@@ -451,7 +451,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Current",
+"version": "2026.0908.1552",
 "logo": "media/platforms/android.png",
 "release_date": "2018-07-11",
 "download_size": "2 GB",
@@ -512,7 +512,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Current",
+"version": "6.29.1",
 "logo": "media/platforms/android.png",
 "release_date": "2018-05-17",
 "download_size": "1.8 GB",

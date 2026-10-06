@@ -24,7 +24,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Latest",
+"version": "42.30",
 "logo": "media/platforms/android.png",
 "release_date": "2018-08-09",
 "download_size": "Approx. 2.5 GB",
@@ -84,7 +84,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Latest",
+"version": "1.20.1",
 "logo": "media/platforms/android.png",
 "release_date": "2021-09-22",
 "download_size": "Approx. 1.0 GB",
@@ -202,7 +202,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Latest",
+"version": "3.41.1",
 "logo": "media/platforms/android.png",
 "release_date": "2015-07-30",
 "download_size": "Approx. 280 MB",
@@ -262,7 +262,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Latest",
+"version": "3.11.1",
 "logo": "media/platforms/android.png",
 "release_date": "2010-09-17",
 "download_size": "Approx. 150 MB",
@@ -322,7 +322,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Latest",
+"version": "1.104.1",
 "logo": "media/platforms/android.png",
 "release_date": "2012-09-28",
 "download_size": "Approx. 150 MB",
@@ -381,7 +381,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Latest",
+"version": "56.0",
 "logo": "media/platforms/android.png",
 "release_date": "2018-06-14",
 "download_size": "Approx. 130 MB",
@@ -441,7 +441,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Latest",
+"version": "56.31.0",
 "logo": "media/platforms/android.png",
 "release_date": "2013-01-01",
 "download_size": "Approx. 100 MB",
@@ -501,7 +501,7 @@
 "platforms": [
 {
 "name": "Android",
-"version": "Latest",
+"version": "11.11.1",
 "logo": "media/platforms/android.png",
 "release_date": "2014-01-01",
 "download_size": "Approx. 100 MB",
