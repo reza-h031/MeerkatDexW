@@ -1,0 +1,599 @@
+[
+{
+"title": "Honor of Kings",
+"description": "Honor of Kings is a multiplayer online battle arena game featuring fast-paced 5v5 matches, diverse heroes, strategic team play, and competitive gameplay.",
+"release_date": "2015-11-26",
+"developer": {
+"name": "TiMi Studio Group",
+"logo": "media/developers/timi-studio-group.png",
+"website": "https://www.tencent.com/"
+},
+"publisher": {
+"name": "Level Infinite",
+"logo": "media/publishers/level-infinite.png",
+"website": "https://www.levelinfinite.com/"
+},
+"website": "https://www.honorofkings.com/",
+"status": "released",
+"genres": [
+"MOBA",
+"Action",
+"Strategy"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "12.1.1.4",
+"logo": "media/platforms/android.png",
+"release_date": "2024-06-20",
+"download_size": "615 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 5.1",
+"cpu": "Quad-core 1.8 GHz",
+"gpu": "Adreno 506 / Mali-T880",
+"storage": "4 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10",
+"cpu": "Octa-core 2.0 GHz",
+"gpu": "Adreno 610 / Mali-G57",
+"storage": "8 GB"
+}
+}
+}
+],
+"images": [
+"media/games/honor-of-kings/icon.png",
+"media/games/honor-of-kings/cover.png",
+"media/games/honor-of-kings/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.1,
+"rating_count": 1740000
+}
+]
+},
+{
+"title": "MONOPOLY GO!",
+"description": "MONOPOLY GO! is a multiplayer board game featuring classic Monopoly gameplay, dice rolling, property collection, events, tournaments, and social competition.",
+"release_date": "2023-04-11",
+"developer": {
+"name": "Scopely",
+"logo": "media/developers/scopely.png",
+"website": "https://www.scopely.com/"
+},
+"publisher": {
+"name": "Scopely",
+"logo": "media/publishers/scopely.png",
+"website": "https://www.scopely.com/"
+},
+"website": "https://www.monopolygo.com/",
+"status": "released",
+"genres": [
+"Board",
+"Casual",
+"Multiplayer"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "1.77.1",
+"logo": "media/platforms/android.png",
+"release_date": "2023-04-11",
+"download_size": "180 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 7.0",
+"cpu": "Quad-core 1.8 GHz",
+"gpu": "Adreno 506 / Mali-T880",
+"storage": "3 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10",
+"cpu": "Octa-core 2.0 GHz",
+"gpu": "Adreno 610 / Mali-G57",
+"storage": "6 GB"
+}
+}
+}
+],
+"images": [
+"media/games/monopoly-go/icon.png",
+"media/games/monopoly-go/cover.png",
+"media/games/monopoly-go/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.6,
+"rating_count": 3220000
+}
+]
+},
+{
+"title": "Royal Match",
+"description": "Royal Match is a match-3 puzzle game where players solve colorful levels, restore a royal castle, unlock areas, and complete various events and challenges.",
+"release_date": "2020-07-18",
+"developer": {
+"name": "Dream Games",
+"logo": "media/developers/dream-games.png",
+"website": "https://dreamgames.com/"
+},
+"publisher": {
+"name": "Dream Games",
+"logo": "media/publishers/dream-games.png",
+"website": "https://dreamgames.com/"
+},
+"website": "https://www.royalmatch.com/",
+"status": "released",
+"genres": [
+"Puzzle",
+"Casual"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "38911",
+"logo": "media/platforms/android.png",
+"release_date": "2020-07-18",
+"download_size": "225 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 7.0",
+"cpu": "Quad-core 1.8 GHz",
+"gpu": "Adreno 506 / Mali-T880",
+"storage": "3 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10",
+"cpu": "Octa-core 2.0 GHz",
+"gpu": "Adreno 610 / Mali-G57",
+"storage": "5 GB"
+}
+}
+}
+],
+"images": [
+"media/games/royal-match/icon.png",
+"media/games/royal-match/cover.png",
+"media/games/royal-match/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.6,
+"rating_count": 10800000
+}
+]
+},
+{
+"title": "Block Blast!",
+"description": "Block Blast! is a casual puzzle game where players place colorful blocks on a grid, clear rows and columns, and aim for high scores through strategic placement.",
+"release_date": "2022-09-23",
+"developer": {
+"name": "Hungry Studio",
+"logo": "media/developers/hungry-studio.png",
+"website": "https://www.hungrystudio.com/"
+},
+"publisher": {
+"name": "Hungry Studio",
+"logo": "media/publishers/hungry-studio.png",
+"website": "https://www.hungrystudio.com/"
+},
+"website": "https://blockblast.com/",
+"status": "released",
+"genres": [
+"Puzzle",
+"Casual"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "10.8.1",
+"logo": "media/platforms/android.png",
+"release_date": "2022-09-23",
+"download_size": "150 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 7.1",
+"cpu": "Quad-core 1.5 GHz",
+"gpu": "Adreno 306 / Mali-T720",
+"storage": "2 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10",
+"cpu": "Octa-core 2.0 GHz",
+"gpu": "Adreno 610 / Mali-G57",
+"storage": "4 GB"
+}
+}
+}
+],
+"images": [
+"media/games/block-blast/icon.png",
+"media/games/block-blast/cover.png",
+"media/games/block-blast/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.8,
+"rating_count": 5540000
+}
+]
+},
+{
+"title": "Whiteout Survival",
+"description": "Whiteout Survival is a 4X survival strategy game set in a frozen world where players build cities, manage resources, recruit heroes, expand their territory, and fight to survive extreme conditions.",
+"release_date": "2023-02-09",
+"developer": {
+"name": "Century Games",
+"logo": "media/developers/century-games.png",
+"website": "https://www.centurygames.com/"
+},
+"publisher": {
+"name": "Century Games",
+"logo": "media/publishers/century-games.png",
+"website": "https://www.centurygames.com/"
+},
+"website": "https://whiteoutsurvival.centurygames.com/",
+"status": "released",
+"genres": [
+"4X",
+"Strategy",
+"Survival"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "1.34.12",
+"logo": "media/platforms/android.png",
+"release_date": "2023-02-09",
+"download_size": "700 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 7.0",
+"cpu": "Quad-core 1.8 GHz",
+"gpu": "Adreno 506 / Mali-T880",
+"storage": "4 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10",
+"cpu": "Octa-core 2.0 GHz",
+"gpu": "Adreno 610 / Mali-G57",
+"storage": "8 GB"
+}
+}
+}
+],
+"images": [
+"media/games/whiteout-survival/icon.png",
+"media/games/whiteout-survival/cover.png",
+"media/games/whiteout-survival/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.1,
+"rating_count": 1560000
+}
+]
+},
+{
+"title": "Last War: Survival Game",
+"description": "Last War: Survival Game is a post-apocalyptic strategy game where players build bases, recruit heroes, manage resources, and battle enemies while surviving a devastated world.",
+"release_date": "2023-06-09",
+"developer": {
+"name": "FUNFLY PTE. LTD.",
+"logo": "media/developers/funfly.png",
+"website": "https://www.lastwar.com/"
+},
+"publisher": {
+"name": "FUNFLY PTE. LTD.",
+"logo": "media/publishers/funfly.png",
+"website": "https://www.lastwar.com/"
+},
+"website": "https://www.lastwar.com/",
+"status": "released",
+"genres": [
+"Strategy",
+"Survival",
+"Simulation"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "1.0.364",
+"logo": "media/platforms/android.png",
+"release_date": "2023-06-09",
+"download_size": "800 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 6.0",
+"cpu": "Quad-core 1.5 GHz",
+"gpu": "Adreno 506 / Mali-T720",
+"storage": "3 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10",
+"cpu": "Octa-core 2.0 GHz",
+"gpu": "Adreno 610 / Mali-G57",
+"storage": "6 GB"
+}
+}
+}
+],
+"images": [
+"media/games/last-war-survival-game/icon.png",
+"media/games/last-war-survival-game/cover.png",
+"media/games/last-war-survival-game/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.6,
+"rating_count": 2040000
+}
+]
+},
+{
+"title": "Coin Master",
+"description": "Coin Master is a casual mobile game that combines village building, slot-machine mechanics, raids, attacks, and social interaction with other players.",
+"release_date": "2015-02-19",
+"developer": {
+"name": "Moon Active",
+"logo": "media/developers/moon-active.png",
+"website": "https://www.moonactive.com/"
+},
+"publisher": {
+"name": "Moon Active",
+"logo": "media/publishers/moon-active.png",
+"website": "https://www.moonactive.com/"
+},
+"website": "https://www.coinmaster.com/",
+"status": "released",
+"genres": [
+"Casual",
+"Strategy",
+"Simulation"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "3.5.2735",
+"logo": "media/platforms/android.png",
+"release_date": "2015-02-19",
+"download_size": "120 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 7.0",
+"cpu": "Quad-core 1.5 GHz",
+"gpu": "Adreno 306 / Mali-T720",
+"storage": "2 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10",
+"cpu": "Octa-core 2.0 GHz",
+"gpu": "Adreno 610 / Mali-G57",
+"storage": "4 GB"
+}
+}
+}
+],
+"images": [
+"media/games/coin-master/icon.png",
+"media/games/coin-master/cover.png",
+"media/games/coin-master/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.7,
+"rating_count": 10400000
+}
+]
+},
+{
+"title": "Teamfight Tactics",
+"description": "Teamfight Tactics is an auto-battler strategy game where players build teams of champions, combine items, and compete against other players using strategic positioning and team composition.",
+"release_date": "2019-06-26",
+"developer": {
+"name": "Riot Games",
+"logo": "media/developers/riot-games.png",
+"website": "https://www.riotgames.com/"
+},
+"publisher": {
+"name": "Riot Games",
+"logo": "media/publishers/riot-games.png",
+"website": "https://www.riotgames.com/"
+},
+"website": "https://teamfighttactics.leagueoflegends.com/",
+"status": "released",
+"genres": [
+"Strategy",
+"Auto Battler",
+"Multiplayer"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "18.4-5637330",
+"logo": "media/platforms/android.png",
+"release_date": "2020-03-18",
+"download_size": "190 MB",
+"requirement": {
+"minimum": {
+"ram": "4 GB",
+"system_version": "Android 9.0",
+"cpu": "64-bit ARM-based processor",
+"gpu": "Vulkan / OpenGL ES 3.2 compatible",
+"storage": "4 GB"
+},
+"recommended": {
+"ram": "6 GB",
+"system_version": "Android 12",
+"cpu": "Octa-core 2.4 GHz",
+"gpu": "Adreno 650 / Mali-G78",
+"storage": "8 GB"
+}
+}
+}
+],
+"images": [
+"media/games/teamfight-tactics/icon.png",
+"media/games/teamfight-tactics/cover.png",
+"media/games/teamfight-tactics/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.2,
+"rating_count": 717000
+}
+]
+},
+{
+"title": "Arena of Valor",
+"description": "Arena of Valor is a multiplayer online battle arena game featuring 5v5 battles, a large roster of heroes, competitive matches, and strategic team-based gameplay.",
+"release_date": "2016-10-14",
+"developer": {
+"name": "TiMi Studio Group",
+"logo": "media/developers/timi-studio-group.png",
+"website": "https://www.tencent.com/"
+},
+"publisher": {
+"name": "Level Infinite",
+"logo": "media/publishers/level-infinite.png",
+"website": "https://www.levelinfinite.com/"
+},
+"website": "https://www.arenaofvalor.com/",
+"status": "released",
+"genres": [
+"MOBA",
+"Action",
+"Multiplayer"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "1.64.1.7",
+"logo": "media/platforms/android.png",
+"release_date": "2017-08-10",
+"download_size": "265 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 5.0",
+"cpu": "Quad-core 1.5 GHz",
+"gpu": "Adreno 306 / Mali-T720",
+"storage": "3 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10",
+"cpu": "Octa-core 2.0 GHz",
+"gpu": "Adreno 610 / Mali-G57",
+"storage": "6 GB"
+}
+}
+}
+],
+"images": [
+"media/games/arena-of-valor/icon.png",
+"media/games/arena-of-valor/cover.png",
+"media/games/arena-of-valor/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 3.9,
+"rating_count": 1060000
+}
+]
+},
+{
+"title": "Royal Kingdom",
+"description": "Royal Kingdom is a match-3 puzzle adventure game where players solve colorful puzzles, rebuild a kingdom, unlock new areas, and progress through a royal storyline.",
+"release_date": "2024-11-21",
+"developer": {
+"name": "Dream Games",
+"logo": "media/developers/dream-games.png",
+"website": "https://dreamgames.com/"
+},
+"publisher": {
+"name": "Dream Games",
+"logo": "media/publishers/dream-games.png",
+"website": "https://dreamgames.com/"
+},
+"website": "https://www.royalkingdom.com/",
+"status": "released",
+"genres": [
+"Puzzle",
+"Casual"
+],
+"platforms": [
+{
+"name": "Android",
+"version": "33149",
+"logo": "media/platforms/android.png",
+"release_date": "2024-11-21",
+"download_size": "230 MB",
+"requirement": {
+"minimum": {
+"ram": "2 GB",
+"system_version": "Android 7.0",
+"cpu": "Quad-core 1.8 GHz",
+"gpu": "Adreno 506 / Mali-T880",
+"storage": "3 GB"
+},
+"recommended": {
+"ram": "4 GB",
+"system_version": "Android 10",
+"cpu": "Octa-core 2.0 GHz",
+"gpu": "Adreno 610 / Mali-G57",
+"storage": "5 GB"
+}
+}
+}
+],
+"images": [
+"media/games/royal-kingdom/icon.png",
+"media/games/royal-kingdom/cover.png",
+"media/games/royal-kingdom/screenshot-1.png"
+],
+"ratings": [
+{
+"source": "Google Play",
+"logo_source": "media/ratings/google-play.png",
+"rating": 4.6,
+"rating_count": 2450000
+}
+]
+}
+]

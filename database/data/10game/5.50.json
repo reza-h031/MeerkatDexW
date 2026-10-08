@@ -1,0 +1,59 @@
+{
+    "title": "Clash of Clans",
+    "description": "Build your village, raise a clan, train your troops, and battle against players around the world in this classic real-time strategy game.",
+    "release_date": "2012-08-02",
+    "developer": {
+        "name": "Supercell",
+        "logo": "media/developers/supercell.png",
+        "website": "https://supercell.com/"
+    },
+    "publisher": {
+        "name": "Supercell",
+        "logo": "media/publishers/supercell.png",
+        "website": "https://supercell.com/"
+    },
+    "website": "https://clashofclans.com/",
+    "status": "released",
+    "genres": [
+        "Strategy",
+        "Multiplayer"
+    ],
+    "platforms": [
+        {
+            "name": "Android",
+            "version": "18.600.7",
+            "logo": "media/platforms/android.png",
+            "release_date": "2013-10-07",
+            "download_size": "900 MB",
+            "requirement": {
+                "minimum": {
+                    "ram": "0.5 GB",
+                    "system_version": "Android 7.0",
+                    "cpu": "1.0 GHz dual-core processor",
+                    "gpu": "OpenGL ES 2.0 compatible GPU",
+                    "storage": "1 GB"
+                },
+                "recommended": {
+                    "ram": "1 GB",
+                    "system_version": "Android 10",
+                    "cpu": "1.5 GHz quad-core processor",
+                    "gpu": "Adreno 400 series or equivalent",
+                    "storage": "2 GB"
+                }
+            }
+        }
+    ],
+    "images": [
+        "media/games/clash-of-clans/icon.png",
+        "media/games/clash-of-clans/cover.png",
+        "media/games/clash-of-clans/screenshot-1.png"
+    ],
+    "ratings": [
+        {
+            "source": "Google Play",
+            "logo_source": "media/ratings/google-play.png",
+            "rating": 4.5,
+            "rating_count": 61300000
+        }
+    ]
+}
