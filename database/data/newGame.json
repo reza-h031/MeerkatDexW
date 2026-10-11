@@ -1,122 +1,317 @@
 [
-{
-"title": "Honor of Kings",
-"description": "Honor of Kings is a multiplayer online battle arena game featuring fast-paced 5v5 matches, diverse heroes, strategic team play, and competitive gameplay.",
-"release_date": "2015-11-26",
-"developer": {
-"name": "TiMi Studio Group",
-"logo": "media/developers/timi-studio-group.png",
-"website": "https://www.tencent.com/"
-},
-"publisher": {
-"name": "Level Infinite",
-"logo": "media/publishers/level-infinite.png",
-"website": "https://www.levelinfinite.com/"
-},
-"website": "https://www.honorofkings.com/",
-"status": "released",
-"genres": [
-"MOBA",
-"Action",
-"Strategy"
-],
-"platforms": [
-{
-"name": "Android",
-"version": "12.1.1.4",
-"logo": "media/platforms/android.png",
-"release_date": "2024-06-20",
-"download_size": "615 MB",
-"requirement": {
-"minimum": {
-"ram": "2 GB",
-"system_version": "Android 5.1",
-"cpu": "Quad-core 1.8 GHz",
-"gpu": "Adreno 506 / Mali-T880",
-"storage": "4 GB"
-},
-"recommended": {
-"ram": "4 GB",
-"system_version": "Android 10",
-"cpu": "Octa-core 2.0 GHz",
-"gpu": "Adreno 610 / Mali-G57",
-"storage": "8 GB"
-}
-}
-}
-],
-"images": [
-"media/games/honor-of-kings/icon.png",
-"media/games/honor-of-kings/cover.png",
-"media/games/honor-of-kings/screenshot-1.png"
-],
-"ratings": [
-{
-"source": "Google Play",
-"logo_source": "media/ratings/google-play.png",
-"rating": 4.1,
-"rating_count": 1740000
-}
-]
-},
-{
-"title": "MONOPOLY GO!",
-"description": "MONOPOLY GO! is a multiplayer board game featuring classic Monopoly gameplay, dice rolling, property collection, events, tournaments, and social competition.",
-"release_date": "2023-04-11",
-"developer": {
-"name": "Scopely",
-"logo": "media/developers/scopely.png",
-"website": "https://www.scopely.com/"
-},
-"publisher": {
-"name": "Scopely",
-"logo": "media/publishers/scopely.png",
-"website": "https://www.scopely.com/"
-},
-"website": "https://www.monopolygo.com/",
-"status": "released",
-"genres": [
-"Board",
-"Casual",
-"Multiplayer"
-],
-"platforms": [
-{
-"name": "Android",
-"version": "1.77.1",
-"logo": "media/platforms/android.png",
-"release_date": "2023-04-11",
-"download_size": "180 MB",
-"requirement": {
-"minimum": {
-"ram": "2 GB",
-"system_version": "Android 7.0",
-"cpu": "Quad-core 1.8 GHz",
-"gpu": "Adreno 506 / Mali-T880",
-"storage": "3 GB"
-},
-"recommended": {
-"ram": "4 GB",
-"system_version": "Android 10",
-"cpu": "Octa-core 2.0 GHz",
-"gpu": "Adreno 610 / Mali-G57",
-"storage": "6 GB"
-}
-}
-}
-],
-"images": [
-"media/games/monopoly-go/icon.png",
-"media/games/monopoly-go/cover.png",
-"media/games/monopoly-go/screenshot-1.png"
-],
-"ratings": [
-{
-"source": "Google Play",
-"logo_source": "media/ratings/google-play.png",
-"rating": 4.6,
-"rating_count": 3220000
-}
-]
-}
+    {
+        "title": "ANANTA",
+        "description": "Explore Nova City in this urban open-world RPG. Build a team of unique characters, investigate mysterious threats, engage in stylish combat, and experience a lively modern city.",
+        "release_date": "2027-01-15",
+        "developer": {
+            "name": "Naked Rain Studio",
+            "logo": "media/developers/naked-rain-studio.png",
+            "website": "https://www.anantagame.com/"
+        },
+        "publisher": {
+            "name": "NetEase Games",
+            "logo": "media/publishers/netease-games.png",
+            "website": "https://www.neteasegames.com/"
+        },
+        "website": "https://www.anantagame.com/",
+        "status": "upcoming",
+        "genres": [
+            "Action RPG",
+            "Open World"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "TBA",
+                "logo": "media/platforms/android.png",
+                "release_date": "2027-01-15",
+                "download_size": "8 GB (estimated)",
+                "requirement": {
+                    "minimum": {
+                        "ram": "4 GB (estimated)",
+                        "system_version": "Android 10 (estimated)",
+                        "cpu": "Octa-core processor, 2.0 GHz (estimated)",
+                        "gpu": "Adreno 610 or equivalent (estimated)",
+                        "storage": "12 GB (estimated)"
+                    },
+                    "recommended": {
+                        "ram": "8 GB (estimated)",
+                        "system_version": "Android 12 (estimated)",
+                        "cpu": "Snapdragon 8 Gen 1 or equivalent (estimated)",
+                        "gpu": "Adreno 730 or equivalent (estimated)",
+                        "storage": "20 GB (estimated)"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/ananta/icon.png",
+            "media/games/ananta/cover.png",
+            "media/games/ananta/screenshot-1.png"
+        ],
+        "ratings": []
+    },
+    {
+        "title": "Silver Palace",
+        "description": "Investigate mysterious cases in Silvernia, a beautiful open-world action RPG. Meet unusual characters, uncover secrets, build relationships, and explore a city filled with intrigue.",
+        "release_date": "TBA",
+        "developer": {
+            "name": "Elementa Games",
+            "logo": "media/developers/elementa-games.png",
+            "website": "https://silverpalace.elementagames.com/"
+        },
+        "publisher": {
+            "name": "Elementa Games",
+            "logo": "media/publishers/elementa-games.png",
+            "website": "https://silverpalace.elementagames.com/"
+        },
+        "website": "https://silverpalace.elementagames.com/",
+        "status": "upcoming",
+        "genres": [
+            "Action RPG",
+            "Open World"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "TBA",
+                "logo": "media/platforms/android.png",
+                "release_date": "TBA",
+                "download_size": "8 GB (estimated)",
+                "requirement": {
+                    "minimum": {
+                        "ram": "4 GB (estimated)",
+                        "system_version": "Android 10 (estimated)",
+                        "cpu": "Octa-core processor, 2.0 GHz (estimated)",
+                        "gpu": "Adreno 610 or equivalent (estimated)",
+                        "storage": "12 GB (estimated)"
+                    },
+                    "recommended": {
+                        "ram": "8 GB (estimated)",
+                        "system_version": "Android 12 (estimated)",
+                        "cpu": "Snapdragon 8 Gen 1 or equivalent (estimated)",
+                        "gpu": "Adreno 730 or equivalent (estimated)",
+                        "storage": "20 GB (estimated)"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/silver-palace/icon.png",
+            "media/games/silver-palace/cover.png",
+            "media/games/silver-palace/screenshot-1.png"
+        ],
+        "ratings": []
+    },
+    {
+        "title": "Ashfall",
+        "description": "Survive a post-apocalyptic wasteland in this online shooter RPG. Explore dangerous environments, collect resources, fight hostile creatures, and uncover the mysteries of a devastated world.",
+        "release_date": "TBA",
+        "developer": {
+            "name": "NetEase Games",
+            "logo": "media/developers/netease-games.png",
+            "website": "https://www.ashfall-game.com/"
+        },
+        "publisher": {
+            "name": "NetEase Games",
+            "logo": "media/publishers/netease-games.png",
+            "website": "https://www.neteasegames.com/"
+        },
+        "website": "https://www.ashfall-game.com/",
+        "status": "upcoming",
+        "genres": [
+            "Shooter",
+            "Survival",
+            "MMORPG"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "TBA",
+                "logo": "media/platforms/android.png",
+                "release_date": "TBA",
+                "download_size": "8 GB (estimated)",
+                "requirement": {
+                    "minimum": {
+                        "ram": "4 GB (estimated)",
+                        "system_version": "Android 10 (estimated)",
+                        "cpu": "Octa-core processor, 2.0 GHz (estimated)",
+                        "gpu": "Adreno 610 or equivalent (estimated)",
+                        "storage": "12 GB (estimated)"
+                    },
+                    "recommended": {
+                        "ram": "8 GB (estimated)",
+                        "system_version": "Android 12 (estimated)",
+                        "cpu": "Snapdragon 8 Gen 1 or equivalent (estimated)",
+                        "gpu": "Adreno 730 or equivalent (estimated)",
+                        "storage": "20 GB (estimated)"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/ashfall/icon.png",
+            "media/games/ashfall/cover.png",
+            "media/games/ashfall/screenshot-1.png"
+        ],
+        "ratings": []
+    },
+    {
+        "title": "The Hidden Ones",
+        "description": "Experience cinematic martial arts combat in an action adventure inspired by the world of The Outcast. Master different characters, learn unique fighting styles, and challenge powerful enemies in intense battles.",
+        "release_date": "TBA",
+        "developer": {
+            "name": "MoreFun Studios",
+            "logo": "media/developers/morefun-studios.png",
+            "website": "https://www.morefunstudios.com/"
+        },
+        "publisher": {
+            "name": "Tencent Games",
+            "logo": "media/publishers/level-infinite.png",
+            "website": "https://www.levelinfinite.com/"
+        },
+        "website": "https://playthehiddenones.com/",
+        "status": "upcoming",
+        "genres": [
+            "Action",
+            "Fighting",
+            "Adventure"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "TBA",
+                "logo": "media/platforms/android.png",
+                "release_date": "TBA",
+                "download_size": "6 GB (estimated)",
+                "requirement": {
+                    "minimum": {
+                        "ram": "4 GB (estimated)",
+                        "system_version": "Android 10 (estimated)",
+                        "cpu": "Octa-core processor, 2.0 GHz (estimated)",
+                        "gpu": "Adreno 610 or equivalent (estimated)",
+                        "storage": "10 GB (estimated)"
+                    },
+                    "recommended": {
+                        "ram": "8 GB (estimated)",
+                        "system_version": "Android 12 (estimated)",
+                        "cpu": "Snapdragon 8 Gen 1 or equivalent (estimated)",
+                        "gpu": "Adreno 730 or equivalent (estimated)",
+                        "storage": "16 GB (estimated)"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/the-hidden-ones/icon.png",
+            "media/games/the-hidden-ones/cover.png",
+            "media/games/the-hidden-ones/screenshot-1.png"
+        ],
+        "ratings": []
+    },
+    {
+        "title": "LIMIT ZERO BREAKERS",
+        "description": "Journey across the floating islands of Seraphia in this anime-inspired action RPG. Assemble a team of unique heroes, master fast-paced combat, explore ancient dungeons, and battle enormous monsters.",
+        "release_date": "TBA",
+        "developer": {
+            "name": "VIC GAME STUDIOS",
+            "logo": "media/developers/vic-game-studios.png",
+            "website": "https://www.vicgamestudios.com/"
+        },
+        "publisher": {
+            "name": "NC",
+            "logo": "media/publishers/nc.png",
+            "website": "https://about.ncsoft.com/"
+        },
+        "website": "https://breakers.plaync.com/",
+        "status": "upcoming",
+        "genres": [
+            "Action RPG",
+            "Adventure",
+            "Multiplayer"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "TBA",
+                "logo": "media/platforms/android.png",
+                "release_date": "TBA",
+                "download_size": "6 GB (estimated)",
+                "requirement": {
+                    "minimum": {
+                        "ram": "4 GB (estimated)",
+                        "system_version": "Android 10 (estimated)",
+                        "cpu": "Octa-core processor, 2.0 GHz (estimated)",
+                        "gpu": "Adreno 610 or equivalent (estimated)",
+                        "storage": "10 GB (estimated)"
+                    },
+                    "recommended": {
+                        "ram": "8 GB (estimated)",
+                        "system_version": "Android 12 (estimated)",
+                        "cpu": "Snapdragon 8 Gen 1 or equivalent (estimated)",
+                        "gpu": "Adreno 730 or equivalent (estimated)",
+                        "storage": "16 GB (estimated)"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/limit-zero-breakers/icon.png",
+            "media/games/limit-zero-breakers/cover.png",
+            "media/games/limit-zero-breakers/screenshot-1.png"
+        ],
+        "ratings": []
+    },
+    {
+        "title": "The House of Tesla: Definitive Edition",
+        "description": "Explore the world of inventor Nikola Tesla in this atmospheric puzzle adventure. Solve intricate mechanical challenges, discover hidden mechanisms, and uncover the story behind mysterious inventions.",
+        "release_date": "TBA",
+        "developer": {
+            "name": "Blue Brain Games",
+            "logo": "media/developers/blue-brain-games.png",
+            "website": "https://www.bluebraingames.com/"
+        },
+        "publisher": {
+            "name": "Blue Brain Games",
+            "logo": "media/publishers/blue-brain-games.png",
+            "website": "https://www.bluebraingames.com/"
+        },
+        "website": "https://www.bluebraingames.com/the-house-of-tesla",
+        "status": "upcoming",
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "platforms": [
+            {
+                "name": "Android",
+                "version": "TBA",
+                "logo": "media/platforms/android.png",
+                "release_date": "2026-10-20",
+                "download_size": "3 GB (estimated)",
+                "requirement": {
+                    "minimum": {
+                        "ram": "3 GB (estimated)",
+                        "system_version": "Android 9.0 (estimated)",
+                        "cpu": "Quad-core processor, 2.0 GHz (estimated)",
+                        "gpu": "OpenGL ES 3.0 compatible GPU (estimated)",
+                        "storage": "5 GB (estimated)"
+                    },
+                    "recommended": {
+                        "ram": "6 GB (estimated)",
+                        "system_version": "Android 11 (estimated)",
+                        "cpu": "Octa-core processor, 2.4 GHz (estimated)",
+                        "gpu": "Adreno 620 or equivalent (estimated)",
+                        "storage": "8 GB (estimated)"
+                    }
+                }
+            }
+        ],
+        "images": [
+            "media/games/the-house-of-tesla-definitive-edition/icon.png",
+            "media/games/the-house-of-tesla-definitive-edition/cover.png",
+            "media/games/the-house-of-tesla-definitive-edition/screenshot-1.png"
+        ],
+        "ratings": []
+    }
 ]

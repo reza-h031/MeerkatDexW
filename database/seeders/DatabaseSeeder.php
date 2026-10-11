@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
     PlatformSeeder::class,
     GenreSeeder::class,
     GameSeeder::class,
-    PlaylistSeeder::class,
+	PlaylistSeeder::class
         ]);
 
     }
