@@ -1,11 +1,6 @@
 <?php
 
-namespace Database\Seeders;
-
-use App\Models\Game;
-use App\Models\Playlist;
-use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
+namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Resources\PlaylistResource;

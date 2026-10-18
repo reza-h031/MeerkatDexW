@@ -1783,10 +1783,29 @@ class GameImportSeeder extends Seeder
                         'string',
                     ],
 
-                    '*.release_date' => [
-                        'nullable',
-                        'date',
-                    ],
+'*.release_date' => [
+    'nullable',
+    'string',
+    'regex:/^(TBA|\d{4}-\d{2}-\d{2})$/',
+    function ($attribute, $value, $fail) {
+        if ($value === null || $value === 'TBA') {
+            return;
+        }
+
+        try {
+            $date = \Illuminate\Support\Carbon::createFromFormat(
+                '!Y-m-d',
+                $value
+            );
+
+            if (!$date || $date->format('Y-m-d') !== $value) {
+                $fail("The {$attribute} must be a valid date or TBA.");
+            }
+        } catch (\Throwable $exception) {
+            $fail("The {$attribute} must be a valid date or TBA.");
+        }
+    },
+],
 
                     '*.website' => [
                         'nullable',
@@ -1878,10 +1897,29 @@ class GameImportSeeder extends Seeder
                         'string',
                     ],
 
-                    '*.platforms.*.release_date' => [
-                        'nullable',
-                        'date',
-                    ],
+'*.platforms.*.release_date' => [
+    'nullable',
+    'string',
+    'regex:/^(TBA|\d{4}-\d{2}-\d{2})$/',
+    function ($attribute, $value, $fail) {
+        if ($value === null || $value === 'TBA') {
+            return;
+        }
+
+        try {
+            $date = \Illuminate\Support\Carbon::createFromFormat(
+                '!Y-m-d',
+                $value
+            );
+
+            if (!$date || $date->format('Y-m-d') !== $value) {
+                $fail("The {$attribute} must be a valid date or TBA.");
+            }
+        } catch (\Throwable $exception) {
+            $fail("The {$attribute} must be a valid date or TBA.");
+        }
+    },
+],
 
                     '*.platforms.*.download_size' => [
                         'nullable',
@@ -1967,10 +2005,10 @@ class GameImportSeeder extends Seeder
                         'min:1',
                     ],
 
-                    '*.ratings' => [
-                        'required',
-                        'array',
-                    ],
+'*.ratings' => [
+    'present',
+    'array',
+],
 
                     '*.ratings.*' => [
                         'required',

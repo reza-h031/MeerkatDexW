@@ -1,2 +1,133 @@
 [
+    {
+        "name": "Featured Games",
+        "description": "Discover our handpicked selection of featured games across different genres, including RPGs, shooters, strategy, sandbox, and competitive multiplayer experiences.",
+        "games": [
+            "Genshin Impact",
+            "PUBG Mobile",
+            "Minecraft",
+            "Call of Duty: Mobile",
+            "Brawl Stars",
+            "Honkai: Star Rail",
+            "Clash Royale",
+            "Roblox",
+            "League of Legends: Wild Rift",
+            "Stardew Valley"
+        ]
+    },
+    {
+        "name": "Popular on Mobile",
+        "description": "Explore popular mobile games across a variety of genres, from competitive multiplayer and battle royale to casual, sports, and strategy games.",
+        "games": [
+            "PUBG Mobile",
+            "Call of Duty: Mobile",
+            "Free Fire",
+            "Brawl Stars",
+            "Roblox",
+            "Mobile Legends: Bang Bang",
+            "Clash Royale",
+            "Minecraft",
+            "Genshin Impact",
+            "Candy Crush Saga",
+            "Subway Surfers",
+            "Pokémon GO",
+            "EA SPORTS FC Mobile",
+            "Among Us",
+            "Stumble Guys",
+            "Clash of Clans",
+            "Honor of Kings",
+            "MONOPOLY GO!",
+            "eFootball",
+            "8 Ball Pool"
+        ]
+    },
+    {
+        "name": "Recently Added",
+        "description": "Discover the latest games added to our database, automatically sorted by their creation date.",
+        "games": []
+    },
+    {
+        "name": "Top Rated",
+        "description": "Explore the highest-rated games based on reliable rating data, considering rating sources and the number of ratings.",
+        "games": []
+    },
+    {
+        "name": "Action Games",
+        "description": "Discover action-packed games featuring combat, shooting, fighting, fast-paced battles, and intense arcade challenges.",
+        "games": [
+            "PUBG Mobile",
+            "Call of Duty: Mobile",
+            "Free Fire",
+            "Brawl Stars",
+            "Shadow Fight 2",
+            "Fortnite",
+            "Pokémon UNITE",
+            "Angry Birds 2",
+            "Jetpack Joyride",
+            "Fall Guys",
+            "Arena Breakout",
+            "War Thunder Mobile",
+            "Identity V",
+            "Dragon Ball Legends"
+        ]
+    },
+    {
+        "name": "Adventure Games",
+        "description": "Explore immersive worlds, discover new places, solve puzzles, and experience exciting adventures and stories.",
+        "games": [
+            "Genshin Impact",
+            "Stardew Valley",
+            "Minecraft",
+            "Terraria",
+            "Monument Valley",
+            "Pokémon GO",
+            "Dead Cells",
+            "Guardian Tales"
+        ]
+    },
+    {
+        "name": "RPG Games",
+        "description": "Discover role-playing games featuring character progression, quests, equipment, team building, and immersive adventures.",
+        "games": [
+            "Genshin Impact",
+            "Honkai: Star Rail",
+            "Diablo Immortal",
+            "Stardew Valley",
+            "Terraria",
+            "Pokémon Masters EX",
+            "Guardian Tales",
+            "Dragon Ball Legends"
+        ]
+    },
+    {
+        "name": "Racing Games",
+        "description": "Experience thrilling races, high-speed driving, and competitive racing challenges.",
+        "games": [
+            "Asphalt 8: Airborne",
+            "Asphalt Legends 9",
+            "Mario Kart Tour"
+        ]
+    },
+    {
+        "name": "Sports Games",
+        "description": "Enjoy mobile sports games featuring football, basketball, billiards, and other competitive sporting experiences.",
+        "games": [
+            "EA SPORTS FC Mobile",
+            "eFootball",
+            "NBA 2K Mobile",
+            "8 Ball Pool"
+        ]
+    },
+    {
+        "name": "Coming Soon",
+        "description": "Discover upcoming Android games that have not yet received a public release, including anticipated RPGs, action games, and puzzle adventures.",
+        "games": [
+            "ANANTA",
+            "Silver Palace",
+            "Ashfall",
+            "The Hidden Ones",
+            "LIMIT ZERO BREAKERS",
+            "The House of Tesla: Definitive Edition"
+        ]
+    }
 ]

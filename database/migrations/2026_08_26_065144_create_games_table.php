@@ -12,8 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('description')->nullable();
-            $table->date('release_date')->nullable();
-
+$table->string('release_date')->nullable();
             $table->foreignId('developer_id')
                 ->nullable()
                 ->constrained('developers')

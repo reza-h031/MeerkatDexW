@@ -19,7 +19,7 @@ return new class extends Migration
 
             $table->string('version')->nullable();
 
-            $table->date('release_date')->nullable();
+$table->string('release_date')->nullable();
 
             $table->string('download_size')->nullable();
 
