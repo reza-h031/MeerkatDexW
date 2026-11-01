@@ -3,52 +3,81 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Models\responses\LoginResponse;
+use App\Http\Requests\Auth\LoginRequest;
+use App\Http\Requests\Auth\RegisterRequest;
+use App\Http\Resources\UserResource;
 use App\Models\User;
-use Illuminate\Http\Request;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
-    public function register(Request $request)
+    public function register(RegisterRequest $request): JsonResponse
     {
-        // ✅ validate input
-        $validated = $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:8|confirmed',
-        ]);
+        $validated = $request->validated();
 
-        // ✅ create user
         $user = User::create([
             'name' => $validated['name'],
             'email' => $validated['email'],
-            'password' => Hash::make($validated['password']),
+            'password' => $validated['password'],
         ]);
 
-        // ✅ issue token (if using Sanctum)
-        $token = $user->createToken('auth_token')->plainTextToken;
+        $token = $user->createToken(
+            $validated['device_name'] ?? 'Meerkat Dex Android',
+            ['*'],
+            now()->addDays(30)
+        );
 
         return response()->json([
-            'message' => 'User registered successfully',
-            'token' => $token,
+            'message' => 'Registration successful',
+            'token' => $token->plainTextToken,
+            'user' => new UserResource($user),
         ], 201);
     }
 
-    public function login(Request $request)
+    public function login(LoginRequest $request): JsonResponse
     {
-        $user = User::where('email', $request->email)->first();
+        $validated = $request->validated();
 
-        if (!$user || !Hash::check($request->password, $user->password)) {
+        $user = User::where('email', $validated['email'])->first();
+
+        if (
+            !$user ||
+            !Hash::check($validated['password'], $user->password)
+        ) {
             return response()->json([
-                "message" => "Invalid credentials"
-                , "token" => ""
+                'message' => 'Invalid credentials',
             ], 401);
         }
 
+        $token = $user->createToken(
+            $validated['device_name'] ?? 'Meerkat Dex Android',
+            ['*'],
+            now()->addDays(30)
+        );
+
         return response()->json([
-            "message" => "Successfully logged in",
-            "token" => $user->createToken('api-token')->plainTextToken
+            'message' => 'Login successful',
+            'token' => $token->plainTextToken,
+            'user' => new UserResource($user),
+        ]);
+    }
+
+    public function logout(): JsonResponse
+    {
+        request()->user()->currentAccessToken()?->delete();
+
+        return response()->json([
+            'message' => 'Logout successful',
+        ]);
+    }
+
+    public function logoutAll(): JsonResponse
+    {
+        request()->user()->tokens()->delete();
+
+        return response()->json([
+            'message' => 'All sessions have been logged out',
         ]);
     }
 }

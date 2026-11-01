@@ -8,7 +8,6 @@ use App\Models\MyMedia;
 use Awcodes\Curator\Models\Media;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
-use function PHPUnit\Framework\throwException;
 
 class MediaObserver
 {
@@ -26,7 +25,6 @@ class MediaObserver
      */
     public function created(Media $media): void
     {
-        throwException(new \Exception());
 
 
         // Only handle images
