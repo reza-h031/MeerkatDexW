@@ -65,9 +65,37 @@ class UserAvatarService
         }
     }
 
-    public function delete(User $user): void
-    {
+public function delete(User $user): void
+{
+    $media = $user->avatar_media;
+
+    // Nothing to delete.
+    if (!$media) {
         $user->avatar_media_id = null;
         $user->save();
+
+        return;
     }
+
+    DB::transaction(function () use ($user, $media) {
+        $disk = Storage::disk($media->disk);
+
+        // Delete the physical avatar file.
+        if (
+            $disk->exists($media->path) &&
+            !$disk->delete($media->path)
+        ) {
+            throw new \RuntimeException(
+                'Unable to delete avatar file.'
+            );
+        }
+
+        // Remove the avatar reference from the user.
+        $user->avatar_media_id = null;
+        $user->save();
+
+        // Remove the media record from the database.
+        $media->delete();
+    });
+}
 }
