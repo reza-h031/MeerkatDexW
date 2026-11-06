@@ -9,7 +9,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Laravel\Sanctum\HasApiTokens;
-
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class User extends Authenticatable
 {
     use HasFactory, Notifiable, HasApiTokens;
@@ -61,6 +61,15 @@ class User extends Authenticatable
             'id'
         );
     }
+	public function savedGames(): BelongsToMany
+{
+    return $this->belongsToMany(
+        Game::class,
+        'saved_games',
+        'user_id',
+        'game_id'
+    )->withTimestamps();
+}
 
     public function initials(): string
     {

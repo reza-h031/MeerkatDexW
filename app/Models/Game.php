@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Models\GameRequirement;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class Game extends Model
 {
     protected $fillable = [
@@ -65,5 +66,14 @@ public function playlists()
         Playlist::class,
         'playlist_game'
     );
+}
+public function savedByUsers(): BelongsToMany
+{
+    return $this->belongsToMany(
+        User::class,
+        'saved_games',
+        'game_id',
+        'user_id'
+    )->withTimestamps();
 }
 }

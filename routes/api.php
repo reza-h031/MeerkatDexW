@@ -9,6 +9,7 @@ use App\Http\Controllers\Api\PlaylistController;
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\UserController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\SavedGameController;
 Route::middleware('throttle:api')->group(function () {
 Route::get('/games', [GameController::class, 'index']);
 Route::post('/games/filter', [GameController::class, 'filter']);
@@ -57,6 +58,25 @@ Route::middleware(['auth:sanctum', 'throttle:api'])->group(function () {
     Route::post('/user/avatar', [UserController::class, 'updateAvatar']);
 
     Route::delete('/user/avatar', [UserController::class, 'deleteAvatar']);
+	// Saved games
+Route::get('/user/saved-games', [
+    SavedGameController::class,
+    'index',
+]);
 
+Route::get('/user/saved-games/{game}/check', [
+    SavedGameController::class,
+    'check',
+]);
+
+Route::post('/user/saved-games/{game}', [
+    SavedGameController::class,
+    'store',
+]);
+
+Route::delete('/user/saved-games/{game}', [
+    SavedGameController::class,
+    'destroy',
+]);
 });
 });

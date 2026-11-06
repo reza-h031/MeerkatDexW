@@ -1,3 +1,4 @@
+
 <?php
 
 namespace App\Services;
@@ -9,16 +10,19 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Intervention\Image\Facades\Image;
+use RuntimeException;
 use Throwable;
 
 class UserAvatarService
 {
     public function update(User $user, UploadedFile $file): MyMedia
     {
+        // Remove the previous avatar first.
+        $this->delete($user);
+
         $filename = Str::uuid() . '.jpg';
 
         $directory = "media/avatars/{$user->id}";
-
         $path = "{$directory}/{$filename}";
 
         $disk = Storage::disk('public');
@@ -30,9 +34,13 @@ class UserAvatarService
 
         $contents = (string) $image;
 
-        $disk->put($path, $contents);
-
         try {
+            if (!$disk->put($path, $contents)) {
+                throw new RuntimeException(
+                    'Unable to store avatar file.'
+                );
+            }
+
             return DB::transaction(function () use (
                 $user,
                 $filename,
@@ -44,7 +52,10 @@ class UserAvatarService
                     'disk' => 'public',
                     'directory' => $directory,
                     'visibility' => 'public',
-                    'name' => pathinfo($filename, PATHINFO_FILENAME),
+                    'name' => pathinfo(
+                        $filename,
+                        PATHINFO_FILENAME
+                    ),
                     'path' => $path,
                     'width' => 512,
                     'height' => 512,
@@ -65,37 +76,37 @@ class UserAvatarService
         }
     }
 
-public function delete(User $user): void
-{
-    $media = $user->avatar_media;
+    public function delete(User $user): void
+    {
+        $media = $user->avatar_media;
 
-    // Nothing to delete.
-    if (!$media) {
-        $user->avatar_media_id = null;
-        $user->save();
+        if (!$media) {
+            if ($user->avatar_media_id !== null) {
+                $user->avatar_media_id = null;
+                $user->save();
+            }
 
-        return;
-    }
+            return;
+        }
 
-    DB::transaction(function () use ($user, $media) {
+        // Remove the database reference first.
+        DB::transaction(function () use ($user, $media) {
+            $user->avatar_media_id = null;
+            $user->save();
+
+            $media->delete();
+        });
+
+        // Delete the physical file after the database transaction.
         $disk = Storage::disk($media->disk);
 
-        // Delete the physical avatar file.
         if (
             $disk->exists($media->path) &&
             !$disk->delete($media->path)
         ) {
-            throw new \RuntimeException(
+            throw new RuntimeException(
                 'Unable to delete avatar file.'
             );
         }
-
-        // Remove the avatar reference from the user.
-        $user->avatar_media_id = null;
-        $user->save();
-
-        // Remove the media record from the database.
-        $media->delete();
-    });
-}
+    }
 }
